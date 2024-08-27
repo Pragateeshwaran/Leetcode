@@ -9,10 +9,6 @@ class TreeNode:
 
 class Solution:
     def flatten(self, root: Optional[TreeNode]) -> None:
-        """
-        Do not return anything, modify root in-place instead.
-        """
-
         def _flatten(node):
             if not node:
                 return None
