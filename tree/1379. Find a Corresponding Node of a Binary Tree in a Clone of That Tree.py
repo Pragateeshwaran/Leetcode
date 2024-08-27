@@ -17,6 +17,71 @@ class Solution:
 
         return dfs(original,cloned)
     
+
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+# class Solution:
+#     def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
+#         def dfs(root1, root2):
+#             if not root1:
+#                 return None
+            
+#             if root1 == target:
+#                 return root2
+            
+#             left_result = dfs(root1.left, root2.left)
+#             if left_result:
+#                 return left_result
+            
+#             right_result = dfs(root1.right, root2.right)
+#             if right_result:
+#                 return right_result
+            
+#             return None
+
+#         return dfs(original, cloned)
+
+class Solution:
+    def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
+        nodes = [(original, cloned)]
+        while nodes:
+            
+            root1, root2 = nodes.pop(0)
+            if root1 == target:
+                return root2 
+            
+            if root1.left:
+                nodes.append((root1.left, root2.left))
+            
+            if root1.right:
+                nodes.append((root1.right, root2.right))
+
+        return None
+
+
+class Solution:
+    def getTargetCopy(
+        self, original: TreeNode, cloned: TreeNode, target: TreeNode
+    ) -> TreeNode:
+        def dfs(root1: TreeNode, root2: TreeNode) -> TreeNode:
+            if root1 is None:
+                return None
+            if root1 == target:
+                return root2
+            return dfs(root1.left, root2.left) or dfs(root1.right, root2.right)
+
+        return dfs(original, cloned)
+    
+
+
+
+    
 #             1
 #     2                    3
 # 4           5       6       7
