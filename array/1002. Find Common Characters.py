@@ -6,9 +6,11 @@ class Solution:
         if not words:
             return []
         result = Counter(words[0])
+        print(result)
         for word in words[1:]:
             result &= Counter(word)
-        
+            print('=---',  result)
+
         return list(result.elements())
 
 solution = Solution()
