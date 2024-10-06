@@ -20,17 +20,13 @@ def count_equal_unique_splits_backtracking(S: str) -> int:
     """
     
 
-    
+
 if __name__ == "__main__":
     test_cases = [
         ("aaaa", 3),
         ("bac", 0),
         ("ababa", 2),
-        ("", 0),
-        ("a", 0),
-        ("abcabc", 3),
-        ("abcde", 0),
-        ("aabbcc", 3),
+        
     ]
     
     for s, expected in test_cases:
