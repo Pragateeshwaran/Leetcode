@@ -1,5 +1,5 @@
 class Solution:
-    def getMaximumXor(self, nums: List[int], maximumBit: int) -> List[int]:
+    def getMaximumXor(self, nums, maximumBit: int):
         # Calculate the initial XOR of all elements in nums
         current_xor = 0
         for num in nums:
