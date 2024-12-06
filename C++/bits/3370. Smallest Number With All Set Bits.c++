@@ -14,11 +14,7 @@ public:
         
         // Calculate the smallest number with all bits set for the determined number of bits
         int result = (1 << bits) - 1; // 2^bits - 1
-        
-        // If n is greater than the result, add one more bit
-        if (result < n) {
-            result = (1 << (bits + 1)) - 1; // 2^(bits + 1) - 1
-        }
+
         
         return result;
     }
