@@ -1,3 +1,7 @@
+#include<iostream>
+#include<unordered_map>
+using namespace std;
+
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -20,3 +24,9 @@ public:
         return res;
     }
 };
+
+int main(){
+    Solution soln;
+    cout<< soln.lengthOfLongestSubstring("abba")<<endl;
+    return 0;
+}
