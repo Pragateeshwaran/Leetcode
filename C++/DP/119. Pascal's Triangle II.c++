@@ -10,7 +10,7 @@ class Solution{
             for(int i=1; i <= rowIndex; i++){
                 vector<int> row;
                 row.push_back(1);
-                for(int j=1; j < result[i-1].size(); j++){
+                for(int j=1; j < result[i-1].size()-1; j++){
                     row.push_back(result[i-1][j-1] + result[i-1][j]);
                 }
                 row.push_back(1);
