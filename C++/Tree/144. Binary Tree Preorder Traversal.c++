@@ -15,65 +15,64 @@ struct TreeNode {
 
 // class Solution {
 // public:
-//     vector<int> inorderTraversal(TreeNode* root) {
-//         vector<int> result;
-//         inorderHelper(root, result);
-//         return result;
+//     void dfs(TreeNode* root, vector<int>& Array) {
+//         if (!root) return;
+//         Array.push_back(root->val);  // Visit the current node
+//         dfs(root->left, Array);     // Traverse the left subtree
+//         dfs(root->right, Array);    // Traverse the right subtree
 //     }
-
-// private:
-//     void inorderHelper(TreeNode* node, vector<int>& result) {
-//         if (node == nullptr) return;
-//         inorderHelper(node->left, result);   // Visit left subtree
-//         result.push_back(node->val);        // Visit current node
-//         inorderHelper(node->right, result); // Visit right subtree
+    
+//     vector<int> preorderTraversal(TreeNode* root) {
+//         vector<int> Result;
+//         dfs(root, Result);
+//         return Result;
 //     }
 // };
 
-
 class Solution {
 public:
-    vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> result;
+    vector<int> preorderTraversal(TreeNode* root) {
         stack<TreeNode*> stacks;
+        vector<int>result;
         while(root!=nullptr || not stacks.empty()){
             while(root!=nullptr){
+                result.push_back(root->val);
                 stacks.push(root);
                 root = root->left;
             }
             root = stacks.top();
             stacks.pop();
-            result.push_back(root->val);
             root = root->right;
-
+            
         }
         return result;
     }
 };
 
-
-// Helper function to create a binary tree
-TreeNode* createTree() {
+// Function to create a sample binary tree for testing
+TreeNode* createSampleTree() {
     TreeNode* root = new TreeNode(1);
     root->right = new TreeNode(2);
     root->right->left = new TreeNode(3);
     return root;
 }
 
+// Main function for testing
 int main() {
     Solution solution;
-
-    // Create a sample tree
-    TreeNode* root = createTree();
-
-    // Perform in-order traversal
-    vector<int> result = solution.inorderTraversal(root);
-
-    // Print the result
-    cout << "In-order Traversal: ";
+    TreeNode* root = createSampleTree();
+    
+    vector<int> result = solution.preorderTraversal(root);
+    cout << "Preorder Traversal: ";
     for (int val : result) {
         cout << val << " ";
     }
     cout << endl;
+
+    // Cleanup allocated memory
+    delete root->right->left;
+    delete root->right;
+    delete root;
+    
     return 0;
 }
