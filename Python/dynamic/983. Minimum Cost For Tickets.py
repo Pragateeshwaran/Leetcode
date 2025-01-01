@@ -50,7 +50,7 @@ class Solution:
                     dp[i - 7] + cost[1] if i >= 7 else cost[1],  # 7-day pass
                     dp[i - 30] + cost[2] if i >= 30 else cost[2]  # 30-day pass
                 )
-        
+        print(dp)
         # The answer is the minimum cost to cover all travel days
         return dp[last_day]
 
