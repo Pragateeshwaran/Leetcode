@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include<cassert>
+#include <algorithm>
 using namespace std;
 
 class Solution {
@@ -25,9 +26,9 @@ public:
 
 int main() {
     Solution solution;
-    assert(solution.maxScore("011101") == 5);
-    assert(solution.maxScore("00111") == 5);
-    assert(solution.maxScore("1111") == 3);
-    assert(solution.maxScore("00") == 1);
+    cout<<(solution.maxScore("011101") == 5)<<endl;
+    cout<<(solution.maxScore("00111") == 5)<<endl;
+    cout<<(solution.maxScore("1111") == 3)<<endl;
+    cout<<(solution.maxScore("00") == 1)<<endl;
     return 0;
 }
