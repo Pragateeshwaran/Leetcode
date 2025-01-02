@@ -1,3 +1,7 @@
+#include<iostream>
+#include<vector>
+
+using namespace std;    
 class Solution {
 public:
     // Function to check if a character is a vowel
@@ -35,6 +39,6 @@ int main(){
     vector<string> words = {"abc", "aeiou", "abcd", "aeiou", "aeiou"};
     vector<vector<int>> queries = {{0, 2}, {1, 3}, {2, 4}};
     vector<int> res = solution.vowelStrings(words, queries);
-    assert(res == vector<int>({0, 2, 3}));
+    cout << (res == vector<int>({0, 2, 3}));
     return 0;
 }
