@@ -12,8 +12,8 @@ class Solution:
             elif nums[mid] < nums[right]:
                 right = mid
             # If they are equal, we can't decide which half to discard, so decrement right
-            # else:
-            #     right -= 1
+            else:
+                right -= 1
 
         return nums[left]
     
