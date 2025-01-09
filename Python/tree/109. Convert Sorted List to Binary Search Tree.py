@@ -32,3 +32,13 @@ class Solution:
         if prev:
             prev.next = None
         return slow
+
+def printtree(root):
+    if root:
+        printtree(root.left)
+        print(root.val)
+        printtree(root.right)
+# Time complexity: O(nlogn)
+solution = Solution()
+res = solution.sortedListToBST(ListNode(-10, ListNode(-3, ListNode(0, ListNode(5, ListNode(9))))))
+printtree(res)  
