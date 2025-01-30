@@ -29,3 +29,5 @@ class Solution:
         return res
 
 print(Solution().solveNQueens(4))
+
+
