@@ -39,3 +39,4 @@ class Solution:
         return dfs(root)    
    
 print(Solution().connect(node1))
+

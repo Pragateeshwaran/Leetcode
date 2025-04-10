@@ -14,9 +14,9 @@ class Solution:
                 return None
             left_tail = _flatten(node.left)
             right_tail = _flatten(node.right)
-            print(node.val)
+            # print(node.val)
             
-            if node.left:
+            if left_tail:
                 original_right = node.right
                 node.right = node.left
                 node.left = None

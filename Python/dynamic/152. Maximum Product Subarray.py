@@ -5,16 +5,16 @@ class Solution:
         for i in nums[1:]:
             if i < 0:
                 max_sub, min_sub = min_sub, max_sub
-                print("the max_sub",max_sub)
-                print("the min_sub",min_sub)
+                # print("the max_sub",max_sub)
+                # print("the min_sub",min_sub)
             
             max_sub = max(i, max_sub * i)
-            print(max_sub)
+            # print(max_sub)
             min_sub = min(i, min_sub * i)
-            print(min_sub)
+            # print(min_sub)
             
             max_product = max(max_product, max_sub)
-            print(max_product)
+            # print(max_product)
         
         return max_product
 

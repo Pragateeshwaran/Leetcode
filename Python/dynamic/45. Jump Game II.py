@@ -1,6 +1,7 @@
 #     You are given a 0-indexed array of integers nums of length n. You are initially positioned at nums[0].
 
-# Each element nums[i] represents the maximum length of a forward jump from index i. In other words, if you are at nums[i], you can jump to any nums[i + j] where:
+# Each element nums[i] represents the maximum length of a forward jump from index i. In other words, if you are at nums[i],
+# you can jump to any nums[i + j] where:
 
 #     0 <= j <= nums[i] and
 #     i + j < n
@@ -29,13 +30,14 @@ class Solution:
             if idx >= len(nums) - 1:
                 return 0   
             
-            if nums[idx] == 0:
-                return float('inf') 
+            # if nums[idx] == 0:
+            #     return float('inf') 
             min_jumps = float('inf')
-            
+            # iter = 0
             for i in range(1, nums[idx] + 1):
                 min_jumps = min(min_jumps, 1 + dfs(nums, idx + i))
-            
+                # print(min_jumps, idx, i, iter)
+            # iter+= 1
             return min_jumps
         
         return dfs(nums, 0)
