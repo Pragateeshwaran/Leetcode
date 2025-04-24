@@ -27,6 +27,37 @@ public:
     }
 };
 
+class Solution {
+    public:
+        void combinationSumHelper(vector<int>& candidates, int target, vector<vector<int>>& res, vector<int>& sub, int index, int currentSum) {
+            for(int j: sub){
+                cout<< j<<"\t";
+            }
+            cout<<endl;
+            if (currentSum == target) {  // If we reach the target, store the combination
+                res.push_back(sub);
+                return;
+            }
+            if (currentSum > target || index >= candidates.size()) return; // Stop if exceeded or out of bounds
+    
+            // Include the current element
+            sub.push_back(candidates[index]);
+            combinationSumHelper(candidates, target, res, sub, index, currentSum + candidates[index]);
+            sub.pop_back();  // Backtrack
+    
+            // Move to the next index
+            combinationSumHelper(candidates, target, res, sub, index + 1, currentSum);
+        }
+    
+        vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+            vector<vector<int>> res;
+            vector<int> sub;
+            combinationSumHelper(candidates, target, res, sub, 0, 0);
+            return res;
+        }
+    };
+    
+
 int main(){
     vector<int> candidates = {2,3,6,7};
     int target = 7;
@@ -40,3 +71,8 @@ int main(){
     }
     return 0; 
 }
+
+
+
+
+
