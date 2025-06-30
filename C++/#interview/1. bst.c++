@@ -42,6 +42,8 @@ int inorder(Node* root) {
     inorder(root->right);
     return 0;
 }   
+
+
 int main(){
     int arr[] = {9, 5, 3, 4, 2, 6, 23, 45, 0};
     int n = sizeof(arr) / sizeof(arr[0]);
