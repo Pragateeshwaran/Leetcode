@@ -1,0 +1,542 @@
+Problem Number,Problem Name & Link,Difficulty,Topic,Sub-topic,Optimal Time Complexity,Optimal Space Complexity,Solution Hint/Keywords,Status
+1,Two Sum (https://leetcode.com/problems/two-sum/),Easy,Array,Hash Table,O(n),O(n),Use hash map to store complements,Not Done
+2995,Viewers Turned Streamers (https://leetcode.com/problems/viewers-turned-streamers/),Hard,Array,Sliding Window,O(n),O(n),Track user activity with sliding window,Not Done
+1526,Minimum Number of Increments on Subarrays to Form a Target Array (https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/),Hard,Array,Greedy,O(n),O(1),Greedy approach to minimize increments,Not Done
+88,Merge Sorted Array (https://leetcode.com/problems/merge-sorted-array/),Easy,Array,Two Pointers,O(n),O(1),Merge from end to avoid overwriting,Not Done
+2667,Create Hello World Function (https://leetcode.com/problems/create-hello-world-function/),Easy,Programming,Basics,O(1),O(1),Simple function creation,Not Done
+1768,Merge Strings Alternately (https://leetcode.com/problems/merge-strings-alternately/),Easy,String,Two Pointers,O(n),O(n),Alternate characters from two strings,Not Done
+2,Add Two Numbers (https://leetcode.com/problems/add-two-numbers/),Medium,Linked List,Math,O(n),O(1),Handle carry while traversing lists,Not Done
+1757,Recyclable and Low Fat Products (https://leetcode.com/problems/recyclable-and-low-fat-products/),Easy,SQL,Filtering,O(n),O(1),Basic SQL filtering,Not Done
+3355,Zero Array Transformation I (https://leetcode.com/problems/zero-array-transformation-i/),Medium,Array,Simulation,O(n),O(1),Simulate transformation process,Not Done
+200,Number of Islands (https://leetcode.com/problems/number-of-islands/),Medium,Graph,DFS,O(m*n),O(m*n),DFS to count connected components,Not Done
+3,Longest Substring Without Repeating Characters (https://leetcode.com/problems/longest-substring-without-repeating-characters/),Medium,String,Sliding Window,O(n),O(k),Sliding window with hash set,Not Done
+42,Trapping Rain Water (https://leetcode.com/problems/trapping-rain-water/),Hard,Array,Two Pointers,O(n),O(1),Two pointers to track water trapped,Not Done
+56,Merge Intervals (https://leetcode.com/problems/merge-intervals/),Medium,Array,Intervals,O(n log n),O(n),Sort and merge overlapping intervals,Not Done
+15,3Sum (https://leetcode.com/problems/3sum/),Medium,Array,Two Pointers,O(n^2),O(1),Sort and use two pointers,Not Done
+9,Palindrome Number (https://leetcode.com/problems/palindrome-number/),Easy,Math,Number,O(log n),O(1),Reverse digits to check palindrome,Not Done
+121,Best Time to Buy and Sell Stock (https://leetcode.com/problems/best-time-to-buy-and-sell-stock/),Easy,Array,Dynamic Programming,O(n),O(1),Track min price and max profit,Not Done
+13,Roman to Integer (https://leetcode.com/problems/roman-to-integer/),Easy,String,Math,O(n),O(1),Parse roman numerals with rules,Not Done
+53,Maximum Subarray (https://leetcode.com/problems/maximum-subarray/),Medium,Array,Dynamic Programming,O(n),O(1),Kadane's algorithm,Not Done
+70,Climbing Stairs (https://leetcode.com/problems/climbing-stairs/),Easy,Dynamic Programming,Fibonacci,O(n),O(1),DP with constant space,Not Done
+4,Median of Two Sorted Arrays (https://leetcode.com/problems/median-of-two-sorted-arrays/),Hard,Array,Binary Search,O(log(min(m. n)),O(1),Binary search on smaller array,Not Done
+5,Longest Palindromic Substring (https://leetcode.com/problems/longest-palindromic-substring/),Medium,String,Dynamic Programming,O(n^2),O(1),Expand around center,Not Done
+169,Majority Element (https://leetcode.com/problems/majority-element/),Easy,Array,Hash Table,O(n),O(1),Boyer-Moore voting algorithm,Not Done
+2235,Add Two Integers (https://leetcode.com/problems/add-two-integers/),Easy,Math,Basics,O(1),O(1),Simple addition,Not Done
+3356,Zero Array Transformation II (https://leetcode.com/problems/zero-array-transformation-ii/),Medium,Array,Simulation,O(n),O(1),Simulate array operations,Not Done
+14,Longest Common Prefix (https://leetcode.com/problems/longest-common-prefix/),Easy,String,Trie,O(m*n),O(1),Compare characters vertically,Not Done
+2663,Lexicographically Smallest Beautiful String (https://leetcode.com/problems/lexicographically-smallest-beautiful-string/),Hard,String,Greedy,O(n),O(1),Greedy string construction,Not Done
+11,Container With Most Water (https://leetcode.com/problems/container-with-most-water/),Medium,Array,Two Pointers,O(n),O(1),Two pointers to maximize area,Not Done
+20,Valid Parentheses (https://leetcode.com/problems/valid-parentheses/),Easy,Stack,String,O(n),O(n),Use stack to validate parentheses,Not Done
+253,Meeting Rooms II (https://leetcode.com/problems/meeting-rooms-ii/),Medium,Array,Intervals,O(n log n),O(n),Min heap for room allocation,Not Done
+10026,Logger Rate Limiter (https://leetcode.com/problems/logger-rate-limiter/),Easy,Design,Hash Table,O(1),O(n),Hash map for timestamp tracking,Not Done
+28,Find the Index of the First Occurrence in a String (https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/),Easy,String,KMP,O(n+m),O(m),KMP algorithm for pattern matching,Not Done
+128,Longest Consecutive Sequence (https://leetcode.com/problems/longest-consecutive-sequence/),Medium,Array,Hash Table,O(n),O(n),Hash set to find sequences,Not Done
+394,Decode String (https://leetcode.com/problems/decode-string/),Medium,Stack,String,O(n),O(n),Stack to handle nested patterns,Not Done
+7,Reverse Integer (https://leetcode.com/problems/reverse-integer/),Medium,Math,Number,O(log n),O(1),Handle overflow while reversing,Not Done
+118,Pascal's Triangle (https://leetcode.com/problems/pascals-triangle/),Easy,Array,Dynamic Programming,O(n^2),O(n^2),Generate rows iteratively,Not Done
+939,Minimum Area Rectangle (https://leetcode.com/problems/minimum-area-rectangle/),Medium,Array,Geometry,O(n^2),O(n),Hash map for coordinate pairs,Not Done
+26,Remove Duplicates from Sorted Array (https://leetcode.com/problems/remove-duplicates-from-sorted-array/),Easy,Array,Two Pointers,O(n),O(1),Two pointers to remove duplicates,Not Done
+27,Remove Element (https://leetcode.com/problems/remove-element/),Easy,Array,Two Pointers,O(n),O(1),Two pointers to remove elements,Not Done
+179,Largest Number (https://leetcode.com/problems/largest-number/),Medium,Array,Sorting,O(n log n),O(n),Custom comparator for sorting,Not Done
+207,Course Schedule (https://leetcode.com/problems/course-schedule/),Medium,Graph,Topological Sort,O(V+E),O(V+E),DFS or BFS for cycle detection,Not Done
+300,Longest Increasing Subsequence (https://leetcode.com/problems/longest-increasing-subsequence/),Medium,Array,Dynamic Programming,O(n log n),O(n),Binary search for LIS,Not Done
+994,Rotting Oranges (https://leetcode.com/problems/rotting-oranges/),Medium,Graph,BFS,O(m*n),O(m*n),BFS to simulate rotting process,Not Done
+3318,Find X-Sum of All K-Long Subarrays I (https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i/),Easy,Array,Sliding Window,O(n),O(1),Sliding window for subarray sums,Not Done
+3351,Sum of Good Subsequences (https://leetcode.com/problems/sum-of-good-subsequences/),Hard,Math,Combinatorics,O(n),O(n),Count subsequences with combinatorics,Not Done
+49,Group Anagrams (https://leetcode.com/problems/group-anagrams/),Medium,String,Hash Table,O(n*k*log k),O(n*k),Hash map with sorted strings,Not Done
+136,Single Number (https://leetcode.com/problems/single-number/),Easy,Array,Bit Manipulation,O(n),O(1),XOR to find single number,Not Done
+146,LRU Cache (https://leetcode.com/problems/lru-cache/),Medium,Design,Hash Table,O(1),O(n),Hash map and doubly linked list,Not Done
+1101,The Earliest Moment When Everyone Become Friends (https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/),Medium,Graph,Union Find,O(n log n),O(n),Union find to track connections,Not Done
+3349,Adjacent Increasing Subarrays Detection I (https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/),Easy,Array,Sliding Window,O(n),O(1),Check adjacent elements,Not Done
+3346,Maximum Frequency of an Element After Performing Operations I (https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/),Medium,Array,Sliding Window,O(n log n),O(1),Sort and use sliding window,Not Done
+3347,Maximum Frequency of an Element After Performing Operations II (https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/),Hard,Array,Sliding Window,O(n log n),O(1),Advanced sliding window with sorting,Not Done
+35,Search Insert Position (https://leetcode.com/problems/search-insert-position/),Easy,Array,Binary Search,O(log n),O(1),Binary search for insert position,Not Done
+55,Jump Game (https://leetcode.com/problems/jump-game/),Medium,Array,Greedy,O(n),O(1),Greedy to check reachability,Not Done
+205,Isomorphic Strings (https://leetcode.com/problems/isomorphic-strings/),Easy,String,Hash Table,O(n),O(n),Map character mappings,Not Done
+206,Reverse Linked List (https://leetcode.com/problems/reverse-linked-list/),Easy,Linked List,Iteration,O(n),O(1),Iterative pointer reversal,Not Done
+242,Valid Anagram (https://leetcode.com/problems/valid-anagram/),Easy,String,Hash Table,O(n),O(n),Hash map or sorting for comparison,Not Done
+295,Find Median from Data Stream (https://leetcode.com/problems/find-median-from-data-stream/),Hard,Heap,Two Heaps,O(log n),O(n),Two heaps for median tracking,Not Done
+347,Top K Frequent Elements (https://leetcode.com/problems/top-k-frequent-elements/),Medium,Array,Heap,O(n log k),O(n),Heap or bucket sort for frequencies,Not Done
+410,Split Array Largest Sum (https://leetcode.com/problems/split-array-largest-sum/),Hard,Array,Binary Search,O(n log sum),O(1),Binary search on sum,Not Done
+1381,Design a Stack With Increment Operation (https://leetcode.com/problems/design-a-stack-with-increment-operation/),Medium,Stack,Design,O(1),O(n),Array-based stack with increment,Not Done
+3020,Find the Maximum Number of Elements in Subset (https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/),Medium,Array,Math,O(n),O(n),Count valid subset sizes,Not Done
+3350,Adjacent Increasing Subarrays Detection II (https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/),Medium,Array,Sliding Window,O(n),O(1),Check adjacent subarrays,Not Done
+3362,Zero Array Transformation III (https://leetcode.com/problems/zero-array-transformation-iii/),Medium,Array,Simulation,O(n),O(1),Simulate transformation rules,Not Done
+17,Letter Combinations of a Phone Number (https://leetcode.com/problems/letter-combinations-of-a-phone-number/),Medium,Backtracking,String,O(4^n),O(n),Backtracking for combinations,Not Done
+23,Merge k Sorted Lists (https://leetcode.com/problems/merge-k-sorted-lists/),Hard,Linked List,Heap,O(n*k*log k),O(k),Min heap for merging lists,Not Done
+31,Next Permutation (https://leetcode.com/problems/next-permutation/),Medium,Array,Math,O(n),O(1),Find next lexicographical permutation,Not Done
+34,Find First and Last Position of Element in Sorted Array (https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/),Medium,Array,Binary Search,O(log n),O(1),Two binary searches for bounds,Not Done
+50,Pow(x.n),Medium,Math,Binary Exponentiation,O(log n),O(1),Binary exponentiation,Not Done
+84,Largest Rectangle in Histogram (https://leetcode.com/problems/largest-rectangle-in-histogram/),Hard,Array,Stack,O(n),O(n),Monotonic stack for area,Not Done
+162,Find Peak Element (https://leetcode.com/problems/find-peak-element/),Medium,Array,Binary Search,O(log n),O(1),Binary search for peak,Not Done
+560,Subarray Sum Equals K (https://leetcode.com/problems/subarray-sum-equals-k/),Medium,Array,Hash Table,O(n),O(n),Prefix sum with hash map,Not Done
+567,Permutation in String (https://leetcode.com/problems/permutation-in-string/),Medium,String,Sliding Window,O(n),O(1),Sliding window with frequency array,Not Done
+584,Find Customer Referee (https://leetcode.com/problems/find-customer-referee/),Easy,SQL,Filtering,O(n),O(1),Simple SQL query,Not Done
+2458,Height of Binary Tree After Subtree Removal Queries (https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/),Hard,Tree,DFS,O(n),O(n),DFS for tree height,Not Done
+2985,Calculate Compressed Mean (https://leetcode.com/problems/calculate-compressed-mean/),Easy,Math,Statistics,O(n),O(1),Average calculation,Not Done
+2987,Find Expensive Cities (https://leetcode.com/problems/find-expensive-cities/),Easy,SQL,Filtering,O(n),O(1),SQL comparison query,Not Done
+2989,Class Performance (https://leetcode.com/problems/class-performance/),Medium,SQL,Aggregation,O(n),O(1),SQL aggregation for scores,Not Done
+2990,Loan Types (https://leetcode.com/problems/loan-types/),Easy,SQL,Join,O(n),O(1),SQL join for filtering,Not Done
+2991,Top Three Wineries (https://leetcode.com/problems/top-three-wineries/),Hard,SQL,Ranking,O(n log n),O(n),SQL ranking with ties,Not Done
+3008,Find Beautiful Indices in the Given Array II (https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/),Hard,String,KMP,O(n),O(n),KMP for pattern matching,Not Done
+3028,Ant on the Boundary (https://leetcode.com/problems/ant-on-the-boundary/),Easy,Array,Math,O(n),O(1),Sum movements to check boundary,Not Done
+3024,Type of Triangle (https://leetcode.com/problems/type-of-triangle/),Easy,Math,Geometry,O(1),O(1),Check triangle properties,Not Done
+22,Generate Parentheses (https://leetcode.com/problems/generate-parentheses/),Medium,Backtracking,String,O(4^n/sqrt(n)),O(n),Backtracking for valid combinations,Not Done
+198,House Robber (https://leetcode.com/problems/house-robber/),Medium,Dynamic Programming,Array,O(n),O(1),DP with two variables,Not Done
+215,Kth Largest Element in an Array (https://leetcode.com/problems/kth-largest-element-in-an-array/),Medium,Array,Heap,O(n log k),O(k),Min heap for kth largest,Not Done
+231,Power of Two (https://leetcode.com/problems/power-of-two/),Easy,Math,Bit Manipulation,O(1),O(1),Check if single bit set,Not Done
+424,Longest Repeating Character Replacement (https://leetcode.com/problems/longest-repeating-character-replacement/),Medium,String,Sliding Window,O(n),O(1),Sliding window with character count,Not Done
+670,Maximum Swap (https://leetcode.com/problems/maximum-swap/),Medium,Array,Greedy,O(n),O(1),Greedy swap for max number,Not Done
+962,Maximum Width Ramp (https://leetcode.com/problems/maximum-width-ramp/),Medium,Array,Monotonic Stack,O(n),O(n),Monotonic stack for max width,Not Done
+2337,Move Pieces to Obtain a String (https://leetcode.com/problems/move-pieces-to-obtain-a-string/),Medium,String,Two Pointers,O(n),O(1),Two pointers to compare strings,Not Done
+2877,Create a DataFrame from List (https://leetcode.com/problems/create-a-dataframe-from-list/),Easy,DataFrame,Pandas,O(n),O(n),Basic DataFrame creation,Not Done
+6,Zigzag Conversion (https://leetcode.com/problems/zigzag-conversion/),Medium,String,Math,O(n),O(n),Simulate zigzag pattern,Not Done
+18,4Sum (https://leetcode.com/problems/4sum/),Medium,Array,Two Pointers,O(n^3),O(1),Extend 3Sum with extra loop,Not Done
+21,Merge Two Sorted Lists (https://leetcode.com/problems/merge-two-sorted-lists/),Easy,Linked List,Recursion,O(n),O(1),Merge with dummy node,Not Done
+33,Search in Rotated Sorted Array (https://leetcode.com/problems/search-in-rotated-sorted-array/),Medium,Array,Binary Search,O(log n),O(1),Binary search with pivot,Not Done
+67,Add Binary (https://leetcode.com/problems/add-binary/),Easy,String,Bit Manipulation,O(n),O(n),Simulate binary addition,Not Done
+124,Binary Tree Maximum Path Sum (https://leetcode.com/problems/binary-tree-maximum-path-sum/),Hard,Tree,DFS,O(n),O(h),DFS with global max,Not Done
+432,All O`one Data Structure (https://leetcode.com/problems/all-oone-data-structure/),Hard,Design,Hash Table,O(1),O(n),Doubly linked list with hash map,Not Done
+595,Big Countries (https://leetcode.com/problems/big-countries/),Easy,SQL,Filtering,O(n),O(1),Simple SQL condition,Not Done
+632,Smallest Range Covering Elements from K Lists (https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/),Hard,Array,Heap,O(n*k*log k),O(k),Min heap for range,Not Done
+695,Max Area of Island (https://leetcode.com/problems/max-area-of-island/),Medium,Graph,DFS,O(m*n),O(m*n),DFS to compute island area,Not Done
+715,Range Module (https://leetcode.com/problems/range-module/),Hard,Design,Segment Tree,O(log n),O(n),Segment tree for range tracking,Not Done
+704,Binary Search (https://leetcode.com/problems/binary-search/),Easy,Array,Binary Search,O(log n),O(1),Standard binary search,Not Done
+796,Rotate String (https://leetcode.com/problems/rotate-string/),Easy,String,KMP,O(n),O(n),Check rotations with concatenation,Not Done
+852,Peak Index in a Mountain Array (https://leetcode.com/problems/peak-index-in-a-mountain-array/),Medium,Array,Binary Search,O(log n),O(1),Binary search for peak,Not Done
+16,3Sum Closest (https://leetcode.com/problems/3sum-closest/),Medium,Array,Two Pointers,O(n^2),O(1),Sort and use two pointers,Not Done
+19,Remove Nth Node From End of List (https://leetcode.com/problems/remove-nth-node-from-end-of-list/),Medium,Linked List,Two Pointers,O(n),O(1),Two pointers to find nth node,Not Done
+45,Jump Game II (https://leetcode.com/problems/jump-game-ii/),Medium,Array,Greedy,O(n),O(1),Greedy to minimize jumps,Not Done
+69,Sqrt(x) (https://leetcode.com/problems/sqrtx/),Easy,Math,Binary Search,O(log n),O(1),Binary search for square root,Not Done
+73,Set Matrix Zeroes (https://leetcode.com/problems/set-matrix-zeroes/),Medium,Array,Matrix,O(m*n),O(1),Use first row/column as markers,Not Done
+75,Sort Colors (https://leetcode.com/problems/sort-colors/),Medium,Array,Two Pointers,O(n),O(1),Dutch national flag algorithm,Not Done
+141,Linked List Cycle (https://leetcode.com/problems/linked-list-cycle/),Easy,Linked List,Two Pointers,O(n),O(1),Floyd's cycle detection,Not Done
+224,Basic Calculator (https://leetcode.com/problems/basic-calculator/),Hard,Stack,String,O(n),O(n),Stack for parentheses and signs,Not Done
+238,Product of Array Except Self (https://leetcode.com/problems/product-of-array-except-self/),Medium,Array,Math,O(n),O(1),Left and right product arrays,Not Done
+283,Move Zeroes (https://leetcode.com/problems/move-zeroes/),Easy,Array,Two Pointers,O(n),O(1),Two pointers to move zeroes,Not Done
+539,Minimum Time Difference (https://leetcode.com/problems/minimum-time-difference/),Medium,String,Sorting,O(n log n),O(n),Sort and compare adjacent times,Not Done
+818,Race Car (https://leetcode.com/problems/race-car/),Hard,Dynamic Programming,BFS,O(log n * log n),O(log n),BFS with position and speed,Not Done
+862,Shortest Subarray with Sum at Least K (https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/),Hard,Array,Sliding Window,O(n),O(n),Deque for prefix sums,Not Done
+1825,Finding MK Average (https://leetcode.com/problems/finding-mk-average/),Hard,Heap,Design,O(log n),O(n),Three heaps for MK average,Not Done
+10,Regular Expression Matching (https://leetcode.com/problems/regular-expression-matching/),Hard,String,Dynamic Programming,O(m*n),O(m*n),DP for pattern matching,Not Done
+12,Integer to Roman (https://leetcode.com/problems/integer-to-roman/),Medium,String,Math,O(1),O(1),Greedy with predefined mappings,Not Done
+37,Sudoku Solver (https://leetcode.com/problems/sudoku-solver/),Hard,Backtracking,Matrix,O(9^m),O(1),Backtracking with valid checks,Not Done
+39,Combination Sum (https://leetcode.com/problems/combination-sum/),Medium,Backtracking,Array,O(2^n),O(n),Backtracking with target sum,Not Done
+41,First Missing Positive (https://leetcode.com/problems/first-missing-positive/),Hard,Array,Cyclic Sort,O(n),O(1),Cyclic sort to find missing,Not Done
+48,Rotate Image (https://leetcode.com/problems/rotate-image/),Medium,Array,Matrix,O(n^2),O(1),Transpose and reverse rows,Not Done
+54,Spiral Matrix (https://leetcode.com/problems/spiral-matrix/),Medium,Array,Matrix,O(m*n),O(1),Simulate spiral traversal,Not Done
+62,Unique Paths (https://leetcode.com/problems/unique-paths/),Medium,Dynamic Programming,Math,O(m*n),O(min(m.n)),DP with optimized space,Not Done
+66,Plus One (https://leetcode.com/problems/plus-one/),Easy,Array,Math,O(n),O(1),Handle carry for digit array,Not Done
+101,Symmetric Tree (https://leetcode.com/problems/symmetric-tree/),Easy,Tree,DFS,O(n),O(h),Recursive mirror check,Not Done
+114,Flatten Binary Tree to Linked List (https://leetcode.com/problems/flatten-binary-tree-to-linked-list/),Medium,Tree,DFS,O(n),O(h),Preorder traversal modification,Not Done
+226,Invert Binary Tree (https://leetcode.com/problems/invert-binary-tree/),Easy,Tree,DFS,O(n),O(h),Swap left and right children,Not Done
+349,Intersection of Two Arrays (https://leetcode.com/problems/intersection-of-two-arrays/),Easy,Array,Hash Table,O(n),O(n),Hash set for intersection,Not Done
+380,Insert Delete GetRandom O(1) (https://leetcode.com/problems/insert-delete-getrandom-o1/),Medium,Design,Hash Table,O(1),O(n),Hash map with array,Not Done
+386,Lexicographical Numbers (https://leetcode.com/problems/lexicographical-numbers/),Medium,Array,DFS,O(n),O(1),DFS for lexicographical order,Not Done
+389,Find the Difference (https://leetcode.com/problems/find-the-difference/),Easy,String,Bit Manipulation,O(n),O(1),XOR to find extra character,Not Done
+417,Pacific Atlantic Water Flow (https://leetcode.com/problems/pacific-atlantic-water-flow/),Medium,Graph,DFS,O(m*n),O(m*n),DFS from ocean boundaries,Not Done
+496,Next Greater Element I (https://leetcode.com/problems/next-greater-element-i/),Easy,Stack,Array,O(n),O(n),Monotonic stack for next greater,Not Done
+525,Contiguous Array (https://leetcode.com/problems/contiguous-array/),Medium,Array,Hash Table,O(n),O(n),Prefix sum with hash map,Not Done
+721,Accounts Merge (https://leetcode.com/problems/accounts-merge/),Medium,Graph,Union Find,O(n*k*log k),O(n*k),Union find for email grouping,Not Done
+973,K Closest Points to Origin (https://leetcode.com/problems/k-closest-points-to w3id=973),Medium,Array,Heap,O(n log k),O(k),Min heap for closest points,Not Done
+1011,Capacity To Ship Packages Within D Days (https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/),Medium,Array,Binary Search,O(n log sum),O(1),Binary search on capacity,Not Done
+1071,Greatest Common Divisor of Strings (https://leetcode.com/problems/greatest-common-divisor-of-strings/),Easy,String,Math,O(n),O(n),Check if GCD string divides both,Not Done
+1110,Delete Nodes And Return Forest (https://leetcode.com/problems/delete-nodes-and-return-forest/),Medium,Tree,DFS,O(n),O(n),DFS to build forest,Not Done
+1405,Longest Happy String (https://leetcode.com/problems/longest-happy-string/),Medium,String,Greedy,O(n),O(1),Greedy with priority queue,Not Done
+1497,Check If Array Pairs Are Divisible by k (https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/),Medium,Array,Math,O(n),O(n),Count remainders modulo k,Not Done
+2035,Partition Array Into Two Arrays to Minimize Sum Difference (https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/),Hard,Array,Dynamic Programming,O(n*sum),O(sum),Meet-in-the-middle approach,Not Done
+2534,Time Taken to Cross the Door (https://leetcode.com/problems/time-taken-to-cross-the-door/),Hard,Array,Simulation,O(n),O(n),Simulate door crossing,Not Done
+25,Reverse Nodes in k-Group (https://leetcode.com/problems/reverse-nodes-in-k-group/),Hard,Linked List,Recursion,O(n),O(1),Reverse k nodes iteratively,Not Done
+29,Divide Two Integers (https://leetcode.com/problems/divide-two-integers/),Medium,Math,Bit Manipulation,O(log n),O(1),Bit manipulation for division,Not Done
+32,Longest Valid Parentheses (https://leetcode.com/problems/longest-valid-parentheses/),Hard,Stack,String,O(n),O(n),Stack to track valid pairs,Not Done
+46,Permutations (https://leetcode.com/problems/permutations/),Medium,Backtracking,Array,O(n!),O(n),Backtracking for all permutations,Not Done
+61,Rotate List (https://leetcode.com/problems/rotate-list/),Medium,Linked List,Two Pointers,O(n),O(1),Rotate using pointer adjustments,Not Done
+72,Edit Distance (https://leetcode.com/problems/edit-distance/),Medium,String,Dynamic Programming,O(m*n),O(m*n),DP for minimum edits,Not Done
+76,Minimum Window Substring (https://leetcode.com/problems/minimum-window-substring/),Hard,String,Sliding Window,O(n),O(n),Sliding window with character counts,Not Done
+85,Maximal Rectangle (https://leetcode.com/problems/maximal-rectangle/),Hard,Array,Stack,O(m*n),O(n),Histogram with monotonic stack,Not Done
+102,Binary Tree Level Order Traversal (https://leetcode.com/problems/binary-tree-level-order-traversal/),Medium,Tree,BFS,O(n),O(n),BFS with level tracking,Not Done
+125,Valid Palindrome (https://leetcode.com/problems/valid-palindrome/),Easy,String,Two Pointers,O(n),O(1),Two pointers to check palindrome,Not Done
+130,Surrounded Regions (https://leetcode.com/problems/surrounded-regions/),Medium,Graph,DFS,O(m*n),O(m*n),DFS to mark unsurrounded regions,Not Done
+139,Word Break (https://leetcode.com/problems/word-break/),Medium,String,Dynamic Programming,O(n^2),O(n),DP to check word segmentation,Not Done
+150,Evaluate Reverse Polish Notation (https://leetcode.com/problems/evaluate-reverse-polish-notation/),Medium,Stack,Math,O(n),O(n),Stack for postfix evaluation,Not Done
+214,Shortest Palindrome (https://leetcode.com/problems/shortest-palindrome/),Hard,String,KMP,O(n),O(n),KMP to find longest palindrome prefix,Not Done
+217,Contains Duplicate (https://leetcode.com/problems/contains-duplicate/),Easy,Array,Hash Table,O(n),O(n),Hash set to check duplicates,Not Done
+219,Contains Duplicate II (https://leetcode.com/problems/contains-duplicate-ii/),Easy,Array,Hash Table,O(n),O(n),Hash map with index tracking,Not Done
+221,Maximal Square (https://leetcode.com/problems/maximal-square/),Medium,Array,Dynamic Programming,O(m*n),O(m*n),DP for largest square,Not Done
+228,Summary Ranges (https://leetcode.com/problems/summary-ranges/),Easy,Array,Two Pointers,O(n),O(1),Two pointers for range detection,Not Done
+234,Palindrome Linked List (https://leetcode.com/problems/palindrome-linked-list/),Easy,Linked List,Two Pointers,O(n),O(1),Reverse second half to compare,Not Done
+236,Lowest Common Ancestor of a Binary Tree (https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/),Medium,Tree,DFS,O(n),O(h),DFS to find LCA,Not Done
+239,Sliding Window Maximum (https://leetcode.com/problems/sliding-window-maximum/),Hard,Array,Deque,O(n),O(k),Deque for max in window,Not Done
+249,Group Shifted Strings (https://leetcode.com/problems/group-shifted-strings/),Medium,String,Hash Table,O(n*k),O(n*k),Hash map with normalized strings,Not Done
+263,Ugly Number (https://leetcode.com/problems/ugly-number/),Easy,Math,Number,O(log n),O(1),Check divisibility by 2 3 5,Not Done
+278,First Bad Version (https://leetcode.com/problems/first-bad-version/),Easy,Binary Search,API,O(log n),O(1),Binary search for first bad,Not Done
+346,Moving Average from Data Stream (https://leetcode.com/problems/moving-average-from-data-stream/),Easy,Design,Queue,O(1),O(n),Queue for sliding window average,Not Done
+354,Russian Doll Envelopes (https://leetcode.com/problems/russian-doll-envelopes/),Hard,Array,Dynamic Programming,O(n log n),O(n),LIS with sorting,Not Done
+443,String Compression (https://leetcode.com/problems/string-compression/),Medium,String,Two Pointers,O(n),O(1),Two pointers to compress string,Not Done
+518,Coin Change II (https://leetcode.com/problems/coin-change-ii/),Medium,Dynamic Programming,Array,O(n*amount),O(amount),DP for coin combinations,Not Done
+543,Diameter of Binary Tree (https://leetcode.com/problems/diameter-of-binary-tree/),Easy,Tree,DFS,O(n),O(h),DFS to compute max path,Not Done
+547,Number of Provinces (https://leetcode.com/problems/number-of-provinces/),Medium,Graph,DFS,O(n^2),O(n),DFS to count provinces,Not Done
+735,Asteroid Collision (https://leetcode.com/problems/asteroid-collision/),Medium,Stack,Array,O(n),O(n),Stack to simulate collisions,Not Done
+703,Kth Largest Element in a Stream (https://leetcode.com/problems/kth-largest-element-in-a-stream/),Easy,Heap,Design,O(log n),O(n),Min heap for kth largest,Not Done
+843,Guess the Word (https://leetcode.com/problems/guess-the-word/),Hard,String,Game Theory,O(n),O(n),Minimax strategy for guessing,Not Done
+876,Middle of the Linked List (https://leetcode.com/problems/middle-of-the-linked-list/),Easy,Linked List,Two Pointers,O(n),O(1),Fast and slow pointers,Not Done
+528,Random Pick with Weight (https://leetcode.com/problems/random-pick-with-weight/),Medium,Array,Random,O(n),O(n),Prefix sum with binary search,Not Done
+1331,Rank Transform of an Array (https://leetcode.com/problems/rank-transform-of-an-array/),Easy,Array,Sorting,O(n log n),O(n),Sort and assign ranks,Not Done
+1207,Unique Number of Occurrences (https://leetcode.com/problems/unique-number-of-occurrences/),Easy,Array,Hash Table,O(n),O(n),Hash map for frequency counts,Not Done
+1277,Count Square Submatrices with All Ones (https://leetcode.com/problems/count-square-submatrices-with-all-ones/),Medium,Array,Dynamic Programming,O(m*n),O(m*n),DP for square counting,Not Done
+1942,The Number of the Smallest Unoccupied Chair (https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/),Medium,Array,Heap,O(n log n),O(n),Min heap for chair assignment,Not Done
+1963,Minimum Number of Swaps to Make the String Balanced (https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/),Medium,String,Greedy,O(n),O(1),Greedy swap for balance,Not Done
+2516,Take K of Each Character From Left and Right (https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/),Medium,String,Sliding Window,O(n),O(1),Sliding window for character counts,Not Done
+2914,Minimum Number of Changes to Make Binary String Beautiful (https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/),Medium,String,Greedy,O(n),O(1),Greedy changes for pattern,Not Done
+24,Swap Nodes in Pairs (https://leetcode.com/problems/swap-nodes-in-pairs/),Medium,Linked List,Recursion,O(n),O(1),Swap adjacent nodes iteratively,Not Done
+51,N-Queens (https://leetcode.com/problems/n-queens/),Hard,Backtracking,Array,O(n!),O(n),Backtracking for valid placements,Not Done
+57,Insert Interval (https://leetcode.com/problems/insert-interval/),Medium,Array,Intervals,O(n),O(1),Merge with overlapping intervals,Not Done
+74,Search a 2D Matrix (https://leetcode.com/problems/search-a-2d-matrix/),Medium,Array,Binary Search,O(log(m*n)),O(1),Binary search on matrix,Not Done
+80,Remove Duplicates from Sorted Array II (https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/),Medium,Array,Two Pointers,O(n),O(1),Allow up to two duplicates,Not Done
+83,Remove Duplicates from Sorted List (https://leetcode.com/problems/remove-duplicates-from-sorted-list/),Easy,Linked List,Iteration,O(n),O(1),Iterate and remove duplicates,Not Done
+100,Same Tree (https://leetcode.com/problems/same-tree/),Easy,Tree,DFS,O(n),O(h),Recursive tree comparison,Not Done
+122,Best Time to Buy and Sell Stock II (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/),Medium,Array,Greedy,O(n),O(1),Greedy for multiple transactions,Not Done
+127,Word Ladder (https://leetcode.com/problems/word-ladder/),Hard,Graph,BFS,O(n*26^l),O(n),BFS for shortest transformation,Not Done
+134,Gas Station (https://leetcode.com/problems/gas-station/),Medium,Array,Greedy,O(n),O(1),Greedy to find starting point,Not Done
+138,Copy List with Random Pointer (https://leetcode.com/problems/copy-list-with-random-pointer/),Medium,Linked List,Hash Table,O(n),O(n),Hash map for node copying,Not Done
+151,Reverse Words in a String (https://leetcode.com/problems/reverse-words-in-a-string/),Medium,String,Two Pointers,O(n),O(n),Reverse words in-place,Not Done
+152,Maximum Product Subarray (https://leetcode.com/problems/maximum-product-subarray/),Medium,Array,Dynamic Programming,O(n),O(1),Track min and max products,Not Done
+160,Intersection of Two Linked Lists (https://leetcode.com/problems/intersection-of-two-linked-lists/),Easy,Linked List,Two Pointers,O(n),O(1),Two pointers to find intersection,Not Done
+175,Combine Two Tables (https://leetcode.com/problems/combine-two-tables/),Easy,SQL,Join,O(n),O(1),Left join for combining tables,Not Done
+189,Rotate Array (https://leetcode.com/problems/rotate-array/),Medium,Array,Math,O(n),O(1),Reverse segments for rotation,Not Done
+202,Happy Number (https://leetcode.com/problems/happy-number/),Easy,Math,Hash Table,O(log n),O(log n),Cycle detection for sum of squares,Not Done
+225,Implement Stack using Queues (https://leetcode.com/problems/implement-stack-using-queues/),Easy,Stack,Queue,O(1),O(n),Use two queues for stack,Not Done
+230,Kth Smallest Element in a BST (https://leetcode.com/problems/kth-smallest-element-in-a-bst/),Medium,Tree,BST,O(n),O(h),Inorder traversal for kth smallest,Not Done
+258,Add Digits (https://leetcode.com/problems/add-digits/),Easy,Math,Number,O(log n),O(1),Digital root formula,Not Done
+268,Missing Number (https://leetcode.com/problems/missing-number/),Easy,Array,Math,O(n),O(1),XOR or sum to find missing,Not Done
+282,Expression Add Operators (https://leetcode.com/problems/expression-add-operators/),Hard,Backtracking,String,O(4^n),O(n),Backtracking for valid expressions,Not Done
+322,Coin Change (https://leetcode.com/problems/coin-change/),Medium,Dynamic Programming,Array,O(n*amount),O(amount),DP for minimum coins,Not Done
+332,Reconstruct Itinerary (https://leetcode.com/problems/reconstruct-itinerary/),Hard,Graph,DFS,O(n!),O(n),DFS with priority queue,Not Done
+366,Find Leaves of Binary Tree (https://leetcode.com/problems/find-leaves-of-binary-tree/),Medium,Tree,DFS,O(n),O(n),DFS to group leaves by height,Not Done
+387,First Unique Character in a String (https://leetcode.com/problems/first-unique-character-in-a-string/),Easy,String,Hash Table,O(n),O(n),Hash map for character counts,Not Done
+392,Is Subsequence (https://leetcode.com/problems/is-subsequence/),Easy,String,Two Pointers,O(n),O(1),Two pointers to check subsequence,Not Done
+409,Longest Palindrome (https://leetcode.com/problems/longest-palindrome/),Easy,String,Hash Table,O(n),O(n),Hash map for character pairs,Not Done
+412,Fizz Buzz (https://leetcode.com/problems/fizz-buzz/),Easy,Math,Simulation,O(n),O(n),Simple modulo checks,Not Done
+440,K-th Smallest in Lexicographical Order (https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/),Hard,Math,Trie,O(log n),O(1),Trie-based counting,Not Done
+442,Find All Duplicates in an Array (https://leetcode.com/problems/find-all-duplicates-in-an-array/),Medium,Array,Cyclic Sort,O(n),O(1),Cyclic sort to find duplicates,Not Done
+459,Repeated Substring Pattern (https://leetcode.com/problems/repeated-substring-pattern/),Easy,String,KMP,O(n),O(n),KMP or string concatenation check,Not Done
+506,Relative Ranks (https://leetcode.com/problems/relative-ranks/),Easy,Array,Sorting,O(n log n),O(n),Sort and assign medals,Not Done
+540,Single Element in a Sorted Array (https://leetcode.com/problems/single-element-in-a-sorted-array/),Medium,Array,Binary Search,O(log n),O(1),Binary search for single element,Not Done
+643,Maximum Average Subarray I (https://leetcode.com/problems/maximum-average-subarray-i/),Easy,Array,Sliding Window,O(n),O(1),Sliding window for max average,Not Done
+652,Find Duplicate Subtrees (https://leetcode.com/problems/find-duplicate-subtrees/),Medium,Tree,Serialization,O(n),O(n),Serialize subtrees with hash map,Not Done
+739,Daily Temperatures (https://leetcode.com/problems/daily-temperatures/),Medium,Stack,Array,O(n),O(n),Monotonic stack for next warmer,Not Done
+743,Network Delay Time (https://leetcode.com/problems/network-delay-time/),Medium,Graph,Dijkstra,O(V+E*log V),O(V),Dijkstra for shortest paths,Not Done
+746,Min Cost Climbing Stairs (https://leetcode.com/problems/min-cost-climbing-stairs/),Easy,Dynamic Programming,Array,O(n),O(1),DP with two variables,Not Done
+767,Reorganize String (https://leetcode.com/problems/reorganize-string/),Medium,String,Heap,O(n log n),O(n),Heap for character rearrangement,Not Done
+901,Online Stock Span (https://leetcode.com/problems/online-stock-span/),Medium,Stack,Monotonic Stack,O(1),O(n),Monotonic stack for price span,Not Done
+921,Minimum Add to Make Parentheses Valid (https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/),Medium,Stack,String,O(n),O(n),Stack to count invalid parentheses,Not Done
+977,Squares of a Sorted Array (https://leetcode.com/problems/squares-of-a-sorted-array/),Easy,Array,Two Pointers,O(n),O(n),Two pointers for sorted squares,Not Done
+986,Interval List Intersections (https://leetcode.com/problems/interval-list-intersections/),Medium,Array,Two Pointers,O(n),O(n),Two pointers for intersections,Not Done
+987,Vertical Order Traversal of a Binary Tree (https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/),Hard,Tree,BFS,O(n log n),O(n),BFS with column tracking,Not Done
+1004,Max Consecutive Ones III (https://leetcode.com/problems/max-consecutive-ones-iii/),Medium,Array,Sliding Window,O(n),O(1),Sliding window with flip count,Not Done
+1007,Minimum Domino Rotations For Equal Row (https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/),Medium,Array,Greedy,O(n),O(1),Greedy check for each face,Not Done
+1072,Flip Columns For Maximum Number of Equal Rows (https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/),Medium,Array,Hash Table,O(n*m),O(n),Hash map for row patterns,Not Done
+1148,Article Views I (https://leetcode.com/problems/article-views-i/),Easy,SQL,Filtering,O(n),O(1),SQL distinct query,Not Done
+1233,Remove Sub-Folders from the Filesystem (https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/),Medium,String,Trie,O(n*k),O(n*k),Trie for folder hierarchy,Not Done
+1249,Minimum Remove to Make Valid Parentheses (https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/),Medium,String,Stack,O(n),O(n),Stack to remove invalid parentheses,Not Done
+1492,The kth Factor of n (https://leetcode.com/problems/the-kth-factor-of-n/),Medium,Math,Number,O(sqrt(n)),O(1),Iterate to find kth factor,Not Done
+1581,Customer Who Visited but Did Not Make Any Transactions (https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/),Easy,SQL,Join,O(n),O(1),Left join with null check,Not Done
+1684,Count the Number of Consistent Strings (https://leetcode.com/problems/count-the-number-of-consistent-strings/),Easy,String,Hash Table,O(n*m),O(n),Hash set for allowed characters,Not Done
+1834,Single-Threaded CPU (https://leetcode.com/problems/single-threaded-cpu/),Medium,Array,Heap,O(n log n),O(n),Min heap for task scheduling,Not Done
+1838,Frequency of the Most Frequent Element (https://leetcode.com/problems/frequency-of-the-most-frequent-element/),Medium,Array,Sliding Window,O(n log n),O(1),Sort and sliding window,Not Done
+1851,Minimum Interval to Include Each Query (https://leetcode.com/problems/minimum-interval-to-include-each-query/),Hard,Array,Heap,O(n log n),O(n),Heap for interval queries,Not Done
+1903,Largest Odd Number in String (https://leetcode.com/problems/largest-odd-number-in-string/),Easy,String,Math,O(n),O(1),Find rightmost odd digit,Not Done
+2070,Most Beautiful Item for Each Query (https://leetcode.com/problems/most-beautiful-item-for-each-query/),Medium,Array,Binary Search,O(n log n),O(n),Sort and binary search,Not Done
+2064,Minimized Maximum of Products Distributed to Any Store (https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/),Medium,Array,Binary Search,O(n log sum),O(1),Binary search on max value,Not Done
+2109,Adding Spaces to a String (https://leetcode.com/problems/adding-spaces-to-a-string/),Medium,String,Simulation,O(n),O(n),Insert spaces at given indices,Not Done
+2641,Cousins in Binary Tree II (https://leetcode.com/problems/cousins-in-binary-tree-ii/),Medium,Tree,BFS,O(n),O(n),BFS to find cousin nodes,Not Done
+2563,Count the Number of Fair Pairs (https://leetcode.com/problems/count-the-number-of-fair-pairs/),Medium,Array,Two Pointers,O(n log n),O(1),Sort and use two pointers,Not Done
+2577,Minimum Time to Visit a Cell In a Grid (https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/),Hard,Graph,Dijkstra,O(m*n*log(m*n)),O(m*n),Dijkstra for shortest path,Not Done
+2635,Apply Transform Over Each Element in Array (https://leetcode.com/problems/apply-transform-over-each-element-in-array/),Easy,Array,Map,O(n),O(n),Apply function to each element,Not Done
+2812,Find the Safest Path in a Grid (https://leetcode.com/problems/find-the-safest-path-in-a-grid/),Medium,Graph,BFS,O(m*n),O(m*n),BFS for max safety factor,Not Done
+2938,Separate Black and White Balls (https://leetcode.com/problems/separate-black-and-white-balls/),Medium,String,Greedy,O(n),O(1),Greedy swaps to separate balls,Not Done
+3043,Find the Length of the Longest Common Prefix (https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/),Medium,String,Trie,O(n*m),O(n*m),Trie for common prefix,Not Done
+3163,String Compression III (https://leetcode.com/problems/string-compression-iii/),Medium,String,Simulation,O(n),O(n),Simulate compression rules,Not Done
+3254,Find the Power of K-Size Subarrays I (https://leetcode.com/problems/find-the-power-of-k-size-subarrays-i/),Medium,Array,Sliding Window,O(n),O(1),Sliding window for power calculation,Not Done
+8,String to Integer (atoi) (https://leetcode.com/problems/string-to-integer-atoi/),Medium,String,Math,O(n),O(1),Handle edge cases and overflow,Not Done
+43,Multiply Strings (https://leetcode.com/problems/multiply-strings/),Medium,String,Math,O(n*m),O(n+m),Simulate manual multiplication,Not Done
+63,Unique Paths II (https://leetcode.com/problems/unique-paths-ii/),Medium,Dynamic Programming,Array,O(m*n),O(min(m n)),DP with obstacles,Not Done
+64,Minimum Path Sum (https://leetcode.com/problems/minimum-path-sum/),Medium,Dynamic Programming,Array,O(m*n),O(min(m n)),DP for min path sum,Not Done
+68,Text Justification (https://leetcode.com/problems/text-justification/),Hard,String,Simulation,O(n),O(n),Simulate text alignment,Not Done
+77,Combinations (https://leetcode.com/problems/combinations/),Medium,Backtracking,Array,O(n choose k),O(k),Backtracking for combinations,Not Done
+82,Remove Duplicates from Sorted List II (https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/),Medium,Linked List,Two Pointers,O(n),O(1),Remove all duplicates,Not Done
+86,Partition List (https://leetcode.com/problems/partition-list/),Medium,Linked List,Two Pointers,O(n),O(1),Partition around value,Not Done
+92,Reverse Linked List II (https://leetcode.com/problems/reverse-linked-list-ii/),Medium,Linked List,Iteration,O(n),O(1),Reverse specific segment,Not Done
+93,Restore IP Addresses (https://leetcode.com/problems/restore-ip-addresses/),Medium,String,Backtracking,O(3^n),O(n),Backtracking for valid IPs,Not Done
+94,Binary Tree Inorder Traversal (https://leetcode.com/problems/binary-tree-inorder-traversal/),Easy,Tree,DFS,O(n),O(h),Inorder DFS traversal,Not Done
+96,Unique Binary Search Trees (https://leetcode.com/problems/unique-binary-search-trees/),Medium,Dynamic Programming,Math,O(n),O(n),Catalan number with DP,Not Done
+98,Validate Binary Search Tree (https://leetcode.com/problems/validate-binary-search-tree/),Medium,Tree,BST,O(n),O(h),Inorder traversal validation,Not Done
+103,Binary Tree Zigzag Level Order Traversal (https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/),Medium,Tree,BFS,O(n),O(n),BFS with direction flag,Not Done
+104,Maximum Depth of Binary Tree (https://leetcode.com/problems/maximum-depth-of-binary-tree/),Easy,Tree,DFS,O(n),O(h),DFS for max depth,Not Done
+119,Pascal's Triangle II (https://leetcode.com/problems/pascals-triangle-ii/),Easy,Array,Dynamic Programming,O(n),O(n),Generate nth row,Not Done
+120,Triangle (https://leetcode.com/problems/triangle/),Medium,Dynamic Programming,Array,O(n^2),O(n),DP for min path sum,Not Done
+166,Fraction to Recurring Decimal (https://leetcode.com/problems/fraction-to-recurring-decimal/),Medium,Math,String,O(log n),O(log n),Handle repeating decimals,Not Done
+168,Excel Sheet Column Title (https://leetcode.com/problems/excel-sheet-column-title/),Easy,String,Math,O(log n),O(1),Base-26 conversion,Not Done
+191,Number of 1 Bits (https://leetcode.com/problems/number-of-1-bits/),Easy,Bit Manipulation,Number,O(1),O(1),Count set bits,Not Done
+204,Count Primes (https://leetcode.com/problems/count-primes/),Medium,Math,Sieve,O(n log log n),O(n),Sieve of Eratosthenes,Not Done
+210,Course Schedule II (https://leetcode.com/problems/course-schedule-ii/),Medium,Graph,Topological Sort,O(V+E),O(V+E),Topological sort for ordering,Not Done
+211,Design Add and Search Words Data Structure (https://leetcode.com/problems/design-add-and-search-words-data-structure/),Medium,Trie,Design,O(n),O(n),Trie with wildcard support,Not Done
+227,Basic Calculator II (https://leetcode.com/problems/basic-calculator-ii/),Medium,Stack,String,O(n),O(n),Stack for operator precedence,Not Done
+235,Lowest Common Ancestor of a Binary Search Tree (https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/),Medium,Tree,BST,O(h),O(1),BST property for LCA,Not Done
+241,Different Ways to Add Parentheses (https://leetcode.com/problems/different-ways-to-add-parentheses/),Medium,Divide and Conquer,String,O(4^n/sqrt(n)),O(n),Divide and conquer for expressions,Not Done
+261,Graph Valid Tree (https://leetcode.com/problems/graph-valid-tree/),Medium,Graph,Union Find,O(n),O(n),Check for cycle and connectivity,Not Done
+269,Alien Dictionary (https://leetcode.com/problems/alien-dictionary/),Hard,Graph,Topological Sort,O(V+E),O(V+E),Topological sort for order,Not Done
+273,Integer to English Words (https://leetcode.com/problems/integer-to-english-words/),Hard,String,Math,O(log n),O(1),Handle number ranges,Not Done
+301,Remove Invalid Parentheses (https://leetcode.com/problems/remove-invalid-parentheses/),Hard,String,Backtracking,O(2^n),O(n),Backtracking for valid strings,Not Done
+312,Burst Balloons (https://leetcode.com/problems/burst-balloons/),Hard,Dynamic Programming,Array,O(n^3),O(n^2),DP for max coins,Not Done
+314,Binary Tree Vertical Order Traversal (https://leetcode.com/problems/binary-tree-vertical-order-traversal/),Medium,Tree,BFS,O(n log n),O(n),BFS with column mapping,Not Done
+328,Odd Even Linked List (https://leetcode.com/problems/odd-even-linked-list/),Medium,Linked List,Two Pointers,O(n),O(1),Rearrange odd and even nodes,Not Done
+341,Flatten Nested List Iterator (https://leetcode.com/problems/flatten-nested-list-iterator/),Medium,Stack,Design,O(n),O(n),Stack for nested list,Not Done
+360,Sort Transformed Array (https://leetcode.com/problems/sort-transformed-array/),Medium,Array,Two Pointers,O(n),O(n),Quadratic transformation sorting,Not Done
+367,Valid Perfect Square (https://leetcode.com/problems/valid-perfect-square/),Easy,Math,Binary Search,O(log n),O(1),Binary search for square root,Not Done
+377,Combination Sum IV (https://leetcode.com/problems/combination-sum-iv/),Medium,Dynamic Programming,Array,O(n*target),O(target),DP for combination count,Not Done
+382,Linked List Random Node (https://leetcode.com/problems/linked-list-random-node/),Medium,Linked List,Reservoir Sampling,O(n),O(1),Reservoir sampling for random node,Not Done
+383,Ransom Note (https://leetcode.com/problems/ransom-note/),Easy,String,Hash Table,O(n),O(n),Hash map for character availability,Not Done
+416,Partition Equal Subset Sum (https://leetcode.com/problems/partition-equal-subset-sum/),Medium,Dynamic Programming,Array,O(n*sum),O(sum),DP for subset sum,Not Done
+438,Find All Anagrams in a String (https://leetcode.com/problems/find-all-anagrams-in-a-string/),Medium,String,Sliding Window,O(n),O(1),Sliding window with frequency array,Not Done
+451,Sort Characters By Frequency (https://leetcode.com/problems/sort-characters-by-frequency/),Medium,String,Heap,O(n log n),O(n),Heap or bucket sort for frequency,Not Done
+486,Predict the Winner (https://leetcode.com/problems/predict-the-winner/),Medium,Dynamic Programming,Game Theory,O(n^2),O(n^2),DP for game outcome,Not Done
+493,Reverse Pairs (https://leetcode.com/problems/reverse-pairs/),Hard,Array,Binary Indexed Tree,O(n log n),O(n),BIT for reverse pairs,Not Done
+523,Continuous Subarray Sum (https://leetcode.com/problems/continuous-subarray-sum/),Medium,Array,Hash Table,O(n),O(n),Prefix sum modulo k,Not Done
+552,Student Attendance Record II (https://leetcode.com/problems/student-attendance-record-ii/),Hard,Dynamic Programming,String,O(n),O(n),DP for valid records,Not Done
+570,Managers with at Least 5 Direct Reports (https://leetcode.com/problems/managers-with-at-least-5-direct-reports/),Medium,SQL,Join,O(n),O(1),SQL join with grouping,Not Done
+577,Employee Bonus (https://leetcode.com/problems/employee-bonus/),Easy,SQL,Join,O(n),O(1),Left join with condition,Not Done
+605,Can Place Flowers (https://leetcode.com/problems/can-place-flowers/),Easy,Array,Greedy,O(n),O(1),Greedy placement check,Not Done
+642,Design Search Autocomplete System (https://leetcode.com/problems/design-search-autocomplete-system/),Hard,Trie,Design,O(n),O(n),Trie with priority queue,Not Done
+680,Valid Palindrome II (https://leetcode.com/problems/valid-palindrome-ii/),Easy,String,Two Pointers,O(n),O(1),Two pointers with one deletion,Not Done
+681,Next Closest Time (https://leetcode.com/problems/next-closest-time/),Medium,String,Brute Force,O(1),O(1),Generate valid times,Not Done
+713,Subarray Product Less Than K (https://leetcode.com/problems/subarray-product-less-than-k/),Medium,Array,Sliding Window,O(n),O(1),Sliding window for product,Not Done
+724,Find Pivot Index (https://leetcode.com/problems/find-pivot-index/),Easy,Array,Prefix Sum,O(n),O(1),Prefix sum for pivot,Not Done
+772,Basic Calculator III (https://leetcode.com/problems/basic-calculator-iii/),Hard,Stack,String,O(n),O(n),Stack for nested expressions,Not Done
+821,Shortest Distance to a Character (https://leetcode.com/problems/shortest-distance-to-a-character/),Easy,String,Two Pointers,O(n),O(n),Two passes for distances,Not Done
+641,Design Circular Deque (https://leetcode.com/problems/design-circular-deque/),Medium,Design,Deque,O(1),O(n),Doubly linked list or array,Not Done
+833,Find And Replace in String (https://leetcode.com/problems/find-and-replace-in-string/),Medium,String,Simulation,O(n),O(n),Simulate replacements,Not Done
+863,All Nodes Distance K in Binary Tree (https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/),Medium,Tree,BFS,O(n),O(n),BFS from target node,Not Done
+867,Transpose Matrix (https://leetcode.com/problems/transpose-matrix/),Easy,Array,Matrix,O(m*n),O(m*n),Swap elements for transpose,Not Done
+888,Fair Candy Swap (https://leetcode.com/problems/fair-candy-swap/),Easy,Array,Hash Table,O(n),O(n),Hash map for sum difference,Not Done
+904,Fruit Into Baskets (https://leetcode.com/problems/fruit-into-baskets/),Medium,Array,Sliding Window,O(n),O(1),Sliding window with two types,Not Done
+905,Sort Array By Parity (https://leetcode.com/problems/sort-array-by-parity/),Easy,Array,Two Pointers,O(n),O(1),Two pointers for parity sort,Not Done
+975,Odd Even Jump (https://leetcode.com/problems/odd-even-jump/),Hard,Array,Monotonic Stack,O(n log n),O(n),Monotonic stack for jumps,Not Done
+981,Time Based Key-Value Store (https://leetcode.com/problems/time-based-key-value-store/),Medium,Design,Hash Table,O(log n),O(n),Binary search on timestamps,Not Done
+992,Subarrays with K Different Integers (https://leetcode.com/problems/subarrays-with-k-different-integers/),Hard,Array,Sliding Window,O(n),O(n),Sliding window with at-most k,Not Done
+997,Find the Town Judge (https://leetcode.com/problems/find-the-town-judge/),Easy,Graph,Array,O(n),O(n),Count trust relationships,Not Done
+1047,Remove All Adjacent Duplicates In String (https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/),Easy,String,Stack,O(n),O(n),Stack to remove duplicates,Not Done
+1106,Parsing A Boolean Expression (https://leetcode.com/problems/parsing-a-boolean-expression/),Hard,String,Stack,O(n),O(n),Stack for expression evaluation,Not Done
+1143,Longest Common Subsequence (https://leetcode.com/problems/longest-common-subsequence/),Medium,String,Dynamic Programming,O(m*n),O(m*n),DP for LCS,Not Done
+1192,Critical Connections in a Network (https://leetcode.com/problems/critical-connections-in-a-network/),Hard,Graph,DFS,O(V+E),O(V+E),DFS for bridge detection,Not Done
+1193,Monthly Transactions I (https://leetcode.com/problems/monthly-transactions-i/),Medium,SQL,Aggregation,O(n),O(1),SQL group by month,Not Done
+1218,Longest Arithmetic Subsequence of Given Difference (https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/),Medium,Array,Dynamic Programming,O(n),O(n),DP with hash map,Not Done
+1251,Average Selling Price (https://leetcode.com/problems/average-selling-price/),Easy,SQL,Aggregation,O(n),O(1),SQL join and average,Not Done
+2263,Make Array Non-decreasing or Non-increasing (https://leetcode.com/problems/make-array-non-decreasing-or-non-increasing/),Hard,Array,Dynamic Programming,O(n^2),O(n),DP for min operations,Not Done
+1310,XOR Queries of a Subarray (https://leetcode.com/problems/xor-queries-of-a-subarray/),Medium,Array,Prefix Sum,O(n+q),O(n),Prefix XOR for queries,Not Done
+1348,Tweet Counts Per Frequency (https://leetcode.com/problems/tweet-counts-per-frequency/),Medium,Design,Hash Table,O(n),O(n),Hash map for time intervals,Not Done
+1431,Kids With the Greatest Number of Candies (https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/),Easy,Array,Math,O(n),O(1),Check max with extra candies,Not Done
+1423,Maximum Points You Can Obtain from Cards (https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/),Medium,Array,Sliding Window,O(n),O(1),Sliding window for max points,Not Done
+1438,Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/),Medium,Array,Sliding Window,O(n log n),O(n),Sliding window with sorted set,Not Done
+1480,Running Sum of 1d Array (https://leetcode.com/problems/running-sum-of-1d-array/),Easy,Array,Prefix Sum,O(n),O(1),Compute prefix sums,Not Done
+1539,Kth Missing Positive Number (https://leetcode.com/problems/kth-missing-positive-number/),Easy,Array,Binary Search,O(log n),O(1),Binary search for kth missing,Not Done
+1593,Split a String Into the Max Number of Unique Substrings (https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/),Medium,String,Backtracking,O(2^n),O(n),Backtracking for unique substrings,Not Done
+1672,Richest Customer Wealth (https://leetcode.com/problems/richest-customer-wealth/),Easy,Array,Math,O(n*m),O(1),Sum rows for max wealth,Not Done
+1661,Average Time of Process per Machine (https://leetcode.com/problems/average-time-of-process-per-machine/),Easy,SQL,Aggregation,O(n),O(1),SQL group by machine,Not Done
+1696,Jump Game VI (https://leetcode.com/problems/jump-game-vi/),Medium,Array,Dynamic Programming,O(n log k),O(k),Deque for max score,Not Done
+1743,Restore the Array From Adjacent Pairs (https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/),Medium,Array,Graph,O(n),O(n),Graph traversal for array,Not Done
+1752,Check if Array Is Sorted and Rotated (https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/),Easy,Array,Simulation,O(n),O(1),Check for single rotation point,Not Done
+1975,Maximum Matrix Sum (https://leetcode.com/problems/maximum-matrix-sum/),Medium,Array,Greedy,O(n^2),O(1),Greedy flips for max sum,Not Done
+2018,Check if Word Can Be Placed In Crossword (https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword/),Medium,Array,Simulation,O(m*n),O(1),Simulate word placement,Not Done
+2044,Count Number of Maximum Bitwise-OR Subsets (https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/),Medium,Backtracking,Bit Manipulation,O(2^n),O(n),Backtracking for max OR,Not Done
+2220,Minimum Bit Flips to Convert Number (https://leetcode.com/problems/minimum-bit-flips-to-convert-number/),Easy,Bit Manipulation,Number,O(log n),O(1),XOR and count bits,Not Done
+2257,Count Unguarded Cells in the Grid (https://leetcode.com/problems/count-unguarded-cells-in-the-grid/),Medium,Array,Simulation,O(m*n),O(m*n),Simulate guard visibility,Not Done
+2275,Largest Combination With Bitwise AND Greater Than Zero (https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/),Medium,Array,Bit Manipulation,O(n),O(1),Count set bits per position,Not Done
+2284,Sender With Largest Word Count (https://leetcode.com/problems/sender-with-largest-word-count/),Medium,String,Hash Table,O(n),O(n),Hash map for word counts,Not Done
+2406,Divide Intervals Into Minimum Number of Groups (https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/),Medium,Array,Heap,O(n log n),O(n),Min heap for interval grouping,Not Done
+2461,Maximum Sum of Distinct Subarrays With Length K (https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/),Medium,Array,Sliding Window,O(n),O(k),Sliding window with set,Not Done
+2620,Counter (https://leetcode.com/problems/counter/),Easy,Array,Math,O(n),O(1),Simple counter function,Not Done
+2707,Extra Characters in a String (https://leetcode.com/problems/extra-characters-in-a-string/),Medium,String,Dynamic Programming,O(n^2),O(n),DP for extra characters,Not Done
+2704,To Be Or Not To Be (https://leetcode.com/problems/to-be-or-not-to-be/),Easy,Programming,Basics,O(1),O(1),Simple comparison function,Not Done
+2703,Return Length of Arguments Passed (https://leetcode.com/problems/return-length-of-arguments-passed/),Easy,Programming,Basics,O(1),O(1),Return arguments length,Not Done
+3110,Score of a String (https://leetcode.com/problems/score-of-a-string/),Easy,String,Math,O(n),O(1),Sum absolute differences,Not Done
+3097,Shortest Subarray With OR at Least K II (https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii/),Medium,Array,Sliding Window,O(n),O(1),Sliding window for OR value,Not Done
+3319,K-th Largest Perfect Subtree Size in Binary Tree (https://leetcode.com/problems/k-th-largest-perfect-subtree-size-in-binary-tree/),Medium,Tree,DFS,O(n),O(n),DFS for perfect subtree sizes,Not Done
+3286,Find a Safe Walk Through a Grid (https://leetcode.com/problems/find-a-safe-walk-through-a-grid/),Medium,Graph,BFS,O(m*n),O(m*n),BFS for safe path,Not Done
+3287,Find the Maximum Sequence Value of Array (https://leetcode.com/problems/find-the-maximum-sequence-value-of-array/),Hard,Array,Dynamic Programming,O(n^2),O(n),DP for max sequence value,Not Done
+3371,Identify the Largest Outlier in an Array (https://leetcode.com/problems/identify-the-largest-outlier-in-an-array/),Medium,Array,Statistics,O(n),O(1),Calculate z-scores for outliers,Not Done
+3327,Check if DFS Strings Are Palindromes (https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/),Hard,String,DFS,O(n),O(n),DFS with palindrome check,Not Done
+36,Valid Sudoku (https://leetcode.com/problems/valid-sudoku/),Medium,Array,Hash Table,O(n),O(n),Check rows and  columns and  and boxes,Not Done
+40,Combination Sum II (https://leetcode.com/problems/combination-sum-ii/),Medium,Backtracking,Array,O(2^n),O(n),Backtracking with duplicates,Not Done
+44,Wildcard Matching (https://leetcode.com/problems/wildcard-matching/),Hard,String,Dynamic Programming,O(m*n),O(m*n),DP for wildcard pattern,Not Done
+47,Permutations II (https://leetcode.com/problems/permutations-ii/),Medium,Backtracking,Array,O(n!),O(n),Backtracking with duplicates,Not Done
+58,Length of Last Word (https://leetcode.com/problems/length-of-last-word/),Easy,String,Simulation,O(n),O(1),Scan from end for last word,Not Done
+60,Permutation Sequence (https://leetcode.com/problems/permutation-sequence/),Hard,Math,Array,O(n^2),O(n),Calculate kth permutation,Not Done
+78,Subsets (https://leetcode.com/problems/subsets/),Medium,Backtracking,Array,O(2^n),O(n),Backtracking for all subsets,Not Done
+79,Word Search (https://leetcode.com/problems/word-search/),Medium,Backtracking,Matrix,O(m*n*4^l),O(l),Backtracking for word path,Not Done
+81,Search in Rotated Sorted Array II (https://leetcode.com/problems/search-in-rotated-sorted-array-ii/),Medium,Array,Binary Search,O(log n),O(1),Binary search with duplicates,Not Done
+91,Decode Ways (https://leetcode.com/problems/decode-ways/),Medium,String,Dynamic Programming,O(n),O(n),DP for decoding count,Not Done
+105,Construct Binary Tree from Preorder and Inorder Traversal (https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/),Medium,Tree,DFS,O(n),O(n),Build tree using indices,Not Done
+116,Populating Next Right Pointers in Each Node (https://leetcode.com/problems/populating-next-right-pointers-in-each-node/),Medium,Tree,BFS,O(n),O(1),BFS or level-order traversal,Not Done
+123,Best Time to Buy and Sell Stock III (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/),Hard,Array,Dynamic Programming,O(n),O(n),DP for two transactions,Not Done
+126,Word Ladder II (https://leetcode.com/problems/word-ladder-ii/),Hard,Graph,BFS,O(n*26^l),O(n),BFS with path tracking,Not Done
+133,Clone Graph (https://leetcode.com/problems/clone-graph/),Medium,Graph,DFS,O(V+E),O(V),DFS for graph cloning,Not Done
+148,Sort List (https://leetcode.com/problems/sort-list/),Medium,Linked List,Merge Sort,O(n log n),O(log n),Merge sort for linked list,Not Done
+153,Find Minimum in Rotated Sorted Array (https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/),Medium,Array,Binary Search,O(log n),O(1),Binary search for minimum,Not Done
+155,Min Stack (https://leetcode.com/problems/min-stack/),Medium,Stack,Design,O(1),O(n),Track min with auxiliary stack,Not Done
+164,Maximum Gap (https://leetcode.com/problems/maximum-gap/),Medium,Array,Bucket Sort,O(n),O(n),Bucket sort for max gap,Not Done
+167,Two Sum II - Input Array Is Sorted (https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/),Medium,Array,Two Pointers,O(n),O(1),Two pointers for sorted array,Not Done
+176,Second Highest Salary (https://leetcode.com/problems/second-highest-salary/),Medium,SQL,Subquery,O(n),O(1),SQL offset for second highest,Not Done
+197,Rising Temperature (https://leetcode.com/problems/rising-temperature/),Easy,SQL,Join,O(n),O(1),Self join for consecutive days,Not Done
+199,Binary Tree Right Side View (https://leetcode.com/problems/binary-tree-right-side-view/),Medium,Tree,BFS,O(n),O(n),BFS for rightmost nodes,Not Done
+203,Remove Linked List Elements (https://leetcode.com/problems/remove-linked-list-elements/),Easy,Linked List,Iteration,O(n),O(1),Iterate and remove elements,Not Done
+209,Minimum Size Subarray Sum (https://leetcode.com/problems/minimum-size-subarray-sum/),Medium,Array,Sliding Window,O(n),O(1),Sliding window for min length,Not Done
+213,House Robber II (https://leetcode.com/problems/house-robber-ii/),Medium,Dynamic Programming,Array,O(n),O(1),DP with circular constraint,Not Done
+216,Combination Sum III (https://leetcode.com/problems/combination-sum-iii/),Medium,Backtracking,Array,O(9 choose k),O(k),Backtracking with fixed size,Not Done
+222,Count Complete Tree Nodes (https://leetcode.com/problems/count-complete-tree-nodes/),Medium,Tree,Binary Search,O(log n * log n),O(1),Binary search for node count,Not Done
+229,Majority Element II (https://leetcode.com/problems/majority-element-ii/),Medium,Array,Boyer-Moore,O(n),O(1),Boyer-Moore for >n/3 elements,Not Done
+232,Implement Queue using Stacks (https://leetcode.com/problems/implement-queue-using-stacks/),Easy,Stack,Queue,O(1),O(n),Two stacks for queue operations,Not Done
+240,Search a 2D Matrix II (https://leetcode.com/problems/search-a-2d-matrix-ii/),Medium,Array,Binary Search,O(log(m*n)),O(1),Search from top-right corner,Not Done
+260,Single Number III (https://leetcode.com/problems/single-number-iii/),Medium,Array,Bit Manipulation,O(n),O(1),XOR to find two single numbers,Not Done
+271,Encode and Decode Strings (https://leetcode.com/problems/encode-and-decode-strings/),Medium,String,Design,O(n),O(n),Length prefix encoding,Not Done
+274,H-Index (https://leetcode.com/problems/h-index/),Medium,Array,Sorting,O(n log n),O(1),Sort and check citations,Not Done
+280,Wiggle Sort (https://leetcode.com/problems/wiggle-sort/),Medium,Array,Sorting,O(n log n),O(1),Sort and rearrange elements,Not Done
+287,Find the Duplicate Number (https://leetcode.com/problems/find-the-duplicate-number/),Medium,Array,Cyclic Sort,O(n),O(1),Floyd's cycle detection,Not Done
+299,Bulls and Cows (https://leetcode.com/problems/bulls-and-cows/),Medium,String,Hash Table,O(n),O(n),Count bulls and cows separately,Not Done
+303,Range Sum Query - Immutable (https://leetcode.com/problems/range-sum-query-immutable/),Easy,Array,Prefix Sum,O(1),O(n),Precompute prefix sums,Not Done
+308,Range Sum Query 2D - Mutable (https://leetcode.com/problems/range-sum-query-2d-mutable/),Medium,Array,Segment Tree,O(log n),O(m*n),Segment tree for 2D sums,Not Done
+309,Best Time to Buy and Sell Stock with Cooldown (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/),Medium,Dynamic Programming,Array,O(n),O(n),DP with state machine,Not Done
+310,Minimum Height Trees (https://leetcode.com/problems/minimum-height-trees/),Medium,Graph,Topological Sort,O(V+E),O(V),Topological sort from leaves,Not Done
+315,Count of Smaller Numbers After Self (https://leetcode.com/problems/count-of-smaller-numbers-after-self/),Hard,Array,Binary Indexed Tree,O(n log n),O(n),BIT for smaller counts,Not Done
+317,Shortest Distance from All Buildings (https://leetcode.com/problems/shortest-distance-from-all-buildings/),Hard,Graph,BFS,O(m*n*k),O(m*n),BFS from each building,Not Done
+329,Longest Increasing Path in a Matrix (https://leetcode.com/problems/longest-increasing-path-in-a-matrix/),Hard,Graph,DFS,O(m*n),O(m*n),DFS with memoization,Not Done
+334,Increasing Triplet Subsequence (https://leetcode.com/problems/increasing-triplet-subsequence/),Medium,Array,Greedy,O(n),O(1),Track smallest and second smallest,Not Done
+337,House Robber III (https://leetcode.com/problems/house-robber-iii/),Medium,Tree,Dynamic Programming,O(n),O(h),DFS with pair of values,Not Done
+344,Reverse String (https://leetcode.com/problems/reverse-string/),Easy,String,Two Pointers,O(n),O(1),Two pointers to reverse,Not Done
+351,Android Unlock Patterns (https://leetcode.com/problems/android-unlock-patterns/),Medium,Backtracking,Math,O(9!),O(9),Backtracking for valid patterns,Not Done
+362,Design Hit Counter (https://leetcode.com/problems/design-hit-counter/),Medium,Design,Queue,O(1),O(n),Queue or array for timestamps,Not Done
+364,Nested List Weight Sum II (https://leetcode.com/problems/nested-list-weight-sum-ii/),Medium,DFS,Stack,O(n),O(n),DFS with depth tracking,Not Done
+390,Elimination Game (https://leetcode.com/problems/elimination-game/),Medium,Math,Simulation,O(log n),O(1),Mathematical pattern for last number,Not Done
+395,Longest Substring with At Least K Repeating Characters (https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/),Medium,String,Sliding Window,O(n),O(1),Sliding window with recursion,Not Done
+414,Third Maximum Number (https://leetcode.com/problems/third-maximum-number/),Easy,Array,Sorting,O(n),O(1),Track top three numbers,Not Done
+415,Add Strings (https://leetcode.com/problems/add-strings/),Easy,String,Math,O(n),O(n),Simulate manual addition,Not Done
+423,Reconstruct Original Digits from English (https://leetcode.com/problems/reconstruct-original-digits-from-english/),Medium,String,Hash Table,O(n),O(n),Count unique letters,Not Done
+433,Minimum Genetic Mutation (https://leetcode.com/problems/minimum-genetic-mutation/),Medium,Graph,BFS,O(n),O(n),BFS for shortest mutation path,Not Done
+446,Arithmetic Slices II - Subsequence (https://leetcode.com/problems/arithmetic-slices-ii-subsequence/),Hard,Array,Dynamic Programming,O(n^2),O(n^2),DP for arithmetic subsequences,Not Done
+453,Minimum Moves to Equal Array Elements (https://leetcode.com/problems/minimum-moves-to-equal-array-elements/),Medium,Array,Math,O(n),O(1),Use min element as base,Not Done
+542,01 Matrix (https://leetcode.com/problems/01-matrix/),Medium,Graph,BFS,O(m*n),O(m*n),BFS from zeros,Not Done
+546,Remove Boxes (https://leetcode.com/problems/remove-boxes/),Hard,Dynamic Programming,Array,O(n^3),O(n^3),DP with memoization,Not Done
+572,Subtree of Another Tree (https://leetcode.com/problems/subtree-of-another-tree/),Easy,Tree,DFS,O(m*n),O(h),DFS with tree comparison,Not Done
+581,Shortest Unsorted Continuous Subarray (https://leetcode.com/problems/shortest-unsorted-continuous-subarray/),Medium,Array,Sorting,O(n),O(1),Find unsorted boundaries,Not Done
+586,Customer Placing the Largest Number of Orders (https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/),Easy,SQL,Aggregation,O(n),O(1),SQL group by and max,Not Done
+617,Merge Two Binary Trees (https://leetcode.com/problems/merge-two-binary-trees/),Easy,Tree,DFS,O(n),O(h),Merge nodes recursively,Not Done
+620,Not Boring Movies (https://leetcode.com/problems/not-boring-movies/),Easy,SQL,Filtering,O(n),O(1),SQL condition filtering,Not Done
+621,Task Scheduler (https://leetcode.com/problems/task-scheduler/),Medium,Array,Heap,O(n log n),O(n),Heap for task scheduling,Not Done
+636,Exclusive Time of Functions (https://leetcode.com/problems/exclusive-time-of-functions/),Medium,Stack,Array,O(n),O(n),Stack for function execution,Not Done
+658,Find K Closest Elements (https://leetcode.com/problems/find-k-closest-elements/),Medium,Array,Binary Search,O(log n + k),O(1),Binary search for window,Not Done
+678,Valid Parenthesis String (https://leetcode.com/problems/valid-parenthesis-string/),Medium,String,Stack,O(n),O(n),Track min/max open counts,Not Done
+679,24 Game (https://leetcode.com/problems/24-game/),Hard,Backtracking,Math,O(1),O(1),Backtracking for valid expressions,Not Done
+682,Baseball Game (https://leetcode.com/problems/baseball-game/),Easy,Stack,String,O(n),O(n),Stack for score calculation,Not Done
+684,Redundant Connection (https://leetcode.com/problems/redundant-connection/),Medium,Graph,Union Find,O(n),O(n),Union find for cycle detection,Not Done
+686,Repeated String Match (https://leetcode.com/problems/repeated-string-match/),Medium,String,KMP,O(n+m),O(n),KMP or string concatenation check,Not Done
+725,Split Linked List in Parts (https://leetcode.com/problems/split-linked-list-in-parts/),Medium,Linked List,Math,O(n),O(1),Split list evenly,Not Done
+727,Minimum Window Subsequence (https://leetcode.com/problems/minimum-window-subsequence/),Hard,String,Dynamic Programming,O(n*m),O(n*m),DP for subsequence window,Not Done
+729,My Calendar I (https://leetcode.com/problems/my-calendar-i/),Medium,Design,Array,O(n),O(n),Check for overlapping events,Not Done
+731,My Calendar II (https://leetcode.com/problems/my-calendar-ii/),Medium,Design,Array,O(n),O(n),Track double bookings,Not Done
+741,Cherry Pickup (https://leetcode.com/problems/cherry-pickup/),Hard,Dynamic Programming,Array,O(n^3),O(n^2),DP for two paths,Not Done
+709,To Lower Case (https://leetcode.com/problems/to-lower-case/),Easy,String,Conversion,O(n),O(n),Convert string to lowercase,Not Done
+430,Flatten a Multilevel Doubly Linked List (https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/),Medium,Linked List,DFS,O(n),O(h),DFS to flatten list,Not Done
+771,Jewels and Stones (https://leetcode.com/problems/jewels-and-stones/),Easy,String,Hash Table,O(n),O(n),Hash set for jewel check,Not Done
+773,Sliding Puzzle (https://leetcode.com/problems/sliding-puzzle/),Hard,Graph,BFS,O(1),O(1),BFS for puzzle states,Not Done
+777,Swap Adjacent in LR String (https://leetcode.com/problems/swap-adjacent-in-lr-string/),Medium,String,Two Pointers,O(n),O(1),Check valid transformations,Not Done
+779,K-th Symbol in Grammar (https://leetcode.com/problems/k-th-symbol-in-grammar/),Medium,Math,Recursion,O(log n),O(log n),Recursive pattern generation,Not Done
+785,Is Graph Bipartite? (https://leetcode.com/problems/is-graph-bipartite/),Medium,Graph,BFS,O(V+E),O(V),BFS or DFS for coloring,Not Done
+706,Design HashMap (https://leetcode.com/problems/design-hashmap/),Easy,Design,Hash Table,O(1),O(n),Array with linked lists,Not Done
+810,Chalkboard XOR Game (https://leetcode.com/problems/chalkboard-xor-game/),Hard,Math,Game Theory,O(n),O(1),XOR properties for winning,Not Done
+815,Bus Routes (https://leetcode.com/problems/bus-routes/),Hard,Graph,BFS,O(n*m),O(n),BFS for minimum buses,Not Done
+489,Robot Room Cleaner (https://leetcode.com/problems/robot-room-cleaner/),Hard,Backtracking,Simulation,O(n),O(n),DFS with backtracking,Not Done
+844,Backspace String Compare (https://leetcode.com/problems/backspace-string-compare/),Easy,String,Stack,O(n),O(n),Stack or two pointers,Not Done
+856,Score of Parentheses (https://leetcode.com/problems/score-of-parentheses/),Medium,String,Stack,O(n),O(n),Stack for nested scores,Not Done
+860,Lemonade Change (https://leetcode.com/problems/lemonade-change/),Easy,Array,Greedy,O(n),O(1),Track change for bills,Not Done
+866,Prime Palindrome (https://leetcode.com/problems/prime-palindrome/),Medium,Math,Number,O(sqrt(n)),O(1),Generate palindromes and check prime,Not Done
+875,Koko Eating Bananas (https://leetcode.com/problems/koko-eating-bananas/),Medium,Array,Binary Search,O(n log m),O(1),Binary search on eating speed,Not Done
+884,Uncommon Words from Two Sentences (https://leetcode.com/problems/uncommon-words-from-two-sentences/),Easy,String,Hash Table,O(n),O(n),Hash map for word counts,Not Done
+900,RLE Iterator (https://leetcode.com/problems/rle-iterator/),Medium,Array,Design,O(1),O(n),Track position in RLE sequence,Not Done
+929,Unique Email Addresses (https://leetcode.com/problems/unique-email-addresses/),Easy,String,Hash Table,O(n),O(n),Normalize emails with rules,Not Done
+930,Binary Subarrays With Sum (https://leetcode.com/problems/binary-subarrays-with-sum/),Medium,Array,Sliding Window,O(n),O(n),Prefix sum with hash map,Not Done
+938,Range Sum of BST (https://leetcode.com/problems/range-sum-of-bst/),Easy,Tree,BST,O(n),O(h),Inorder traversal with range check,Not Done
+946,Validate Stack Sequences (https://leetcode.com/problems/validate-stack-sequences/),Medium,Stack,Array,O(n),O(n),Simulate stack operations,Not Done
+509,Fibonacci Number (https://leetcode.com/problems/fibonacci-number/),Easy,Math,Dynamic Programming,O(n),O(1),Iterative Fibonacci calculation,Not Done
+974,Subarray Sums Divisible by K (https://leetcode.com/problems/subarray-sums-divisible-by-k/),Medium,Array,Hash Table,O(n),O(n),Prefix sum modulo K,Not Done
+983,Minimum Cost For Tickets (https://leetcode.com/problems/minimum-cost-for-tickets/),Medium,Dynamic Programming,Array,O(n),O(n),DP for minimum cost,Not Done
+1136,Parallel Courses (https://leetcode.com/problems/parallel-courses/),Medium,Graph,Topological Sort,O(V+E),O(V),Topological sort for course scheduling,Not Done
+1043,Partition Array for Maximum Sum (https://leetcode.com/problems/partition-array-for-maximum-sum/),Medium,Dynamic Programming,Array,O(n*k),O(n),DP for max sum partitions,Not Done
+1046,Last Stone Weight (https://leetcode.com/problems/last-stone-weight/),Easy,Array,Heap,O(n log n),O(n),Max heap for stone smashing,Not Done
+1068,Product Sales Analysis I (https://leetcode.com/problems/product-sales-analysis-i/),Easy,SQL,Join,O(n),O(1),SQL join for sales data,Not Done
+1229,Meeting Scheduler (https://leetcode.com/problems/meeting-scheduler/),Medium,Array,Two Pointers,O(n log n),O(n),Sort and find overlapping slots,Not Done
+1089,Duplicate Zeros (https://leetcode.com/problems/duplicate-zeros/),Easy,Array,Two Pointers,O(n),O(1),Shift elements to duplicate zeros,Not Done
+550,Game Play Analysis IV (https://leetcode.com/problems/game-play-analysis-iv/),Medium,SQL,Subquery,O(n),O(1),SQL for consecutive logins,Not Done
+1105,Filling Bookcase Shelves (https://leetcode.com/problems/filling-bookcase-shelves/),Medium,Dynamic Programming,Array,O(n),O(n),DP for minimum height,Not Done
+1146,Snapshot Array (https://leetcode.com/problems/snapshot-array/),Medium,Design,Array,O(1),O(n),Store history with binary search,Not Done
+1155,Number of Dice Rolls With Target Sum (https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/),Medium,Dynamic Programming,Math,O(n*k*target),O(target),DP for dice combinations,Not Done
+1185,Day of the Week (https://leetcode.com/problems/day-of-the-week/),Easy,Math,Date,O(1),O(1),Zeller's congruence or date library,Not Done
+1174,Immediate Food Delivery II (https://leetcode.com/problems/immediate-food-delivery-ii/),Medium,SQL,Aggregation,O(n),O(1),SQL for first order analysis,Not Done
+1248,Count Number of Nice Subarrays (https://leetcode.com/problems/count-number-of-nice-subarrays/),Medium,Array,Sliding Window,O(n),O(n),Prefix sum for K distinct,Not Done
+1275,Find Winner on a Tic Tac Toe Game (https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/),Easy,Array,Simulation,O(n),O(1),Check rows and  columns and  and diagonals,Not Done
+1290,Convert Binary Number in a Linked List to Integer (https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/),Easy,Linked List,Math,O(n),O(1),Iterate and compute decimal,Not Done
+1342,Number of Steps to Reduce a Number to Zero (https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/),Easy,Math,Bit Manipulation,O(log n),O(1),Simulate division and subtraction,Not Done
+1334,Find the City With the Smallest Number of Neighbors at a Threshold Distance (https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/),Medium,Graph,Dijkstra,O(V^2*log V),O(V),Dijkstra for shortest paths,Not Done
+1358,Number of Substrings Containing All Three Characters (https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/),Medium,String,Sliding Window,O(n),O(1),Sliding window for character counts,Not Done
+1346,Check If N and Its Double Exist (https://leetcode.com/problems/check-if-n-and-its-double-exist/),Easy,Array,Hash Table,O(n),O(n),Hash set for double check,Not Done
+1347,Minimum Number of Steps to Make Two Strings Anagram (https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/),Medium,String,Hash Table,O(n),O(n),Count character differences,Not Done
+1371,Find the Longest Substring Containing Vowels in Even Counts (https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/),Medium,String,Bit Manipulation,O(n),O(1),Bitmask for vowel counts,Not Done
+1367,Linked List in Binary Tree (https://leetcode.com/problems/linked-list-in-binary-tree/),Medium,Tree,DFS,O(n*min(h l)),O(h),DFS with path matching,Not Done
+1389,Create Target Array in the Given Order (https://leetcode.com/problems/create-target-array-in-the-given-order/),Easy,Array,Simulation,O(n),O(n),Insert elements at indices,Not Done
+1470,Shuffle the Array (https://leetcode.com/problems/shuffle-the-array/),Easy,Array,Math,O(n),O(n),Interleave two halves,Not Done
+1509,Minimum Difference Between Largest and Smallest Value in Three Moves (https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/),Medium,Array,Sorting,O(n log n),O(1),Sort and check min difference,Not Done
+1512,Number of Good Pairs (https://leetcode.com/problems/number-of-good-pairs/),Easy,Array,Hash Table,O(n),O(n),Hash map for frequency pairs,Not Done
+1518,Water Bottles (https://leetcode.com/problems/water-bottles/),Easy,Math,Simulation,O(log n),O(1),Simulate bottle exchange,Not Done
+1590,Make Sum Divisible by P (https://leetcode.com/problems/make-sum-divisible-by-p/),Medium,Array,Prefix Sum,O(n),O(n),Prefix sum modulo P,Not Done
+1631,Path With Minimum Effort (https://leetcode.com/problems/path-with-minimum-effort/),Medium,Graph,Dijkstra,O(m*n*log(m*n)),O(m*n),Dijkstra for min effort path,Not Done
+1652,Defuse the Bomb (https://leetcode.com/problems/defuse-the-bomb/),Easy,Array,Math,O(n),O(n),Circular array sum,Not Done
+1642,Furthest Building You Can Reach (https://leetcode.com/problems/furthest-building-you-can-reach/),Medium,Array,Heap,O(n log n),O(n),Min heap for ladder allocation,Not Done
+1633,Percentage of Users Attended a Contest (https://leetcode.com/problems/percentage-of-users-attended-a-contest/),Easy,SQL,Aggregation,O(n),O(1),SQL for percentage calculation,Not Done
+1658,Minimum Operations to Reduce X to Zero (https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/),Medium,Array,Sliding Window,O(n),O(1),Sliding window for complement sum,Not Done
+1650,Lowest Common Ancestor of a Binary Tree III (https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/),Medium,Tree,DFS,O(n),O(n),Parent pointers for LCA,Not Done
+1667,Fix Names in a Table (https://leetcode.com/problems/fix-names-in-a-table/),Easy,SQL,String,O(n),O(1),SQL string manipulation,Not Done
+1732,Find the Highest Altitude (https://leetcode.com/problems/find-the-highest-altitude/),Easy,Array,Prefix Sum,O(n),O(1),Track max prefix sum,Not Done
+1813,Sentence Similarity III (https://leetcode.com/problems/sentence-similarity-iii/),Medium,String,Two Pointers,O(n),O(n),Check subsequence of words,Not Done
+1823,Find the Winner of the Circular Game (https://leetcode.com/problems/find-the-winner-of-the-circular-game/),Medium,Math,Simulation,O(n),O(1),Josephus problem formula,Not Done
+1845,Seat Reservation Manager (https://leetcode.com/problems/seat-reservation-manager/),Medium,Design,Heap,O(log n),O(n),Min heap for seat management,Not Done
+1861,Rotating the Box (https://leetcode.com/problems/rotating-the-box/),Medium,Array,Simulation,O(m*n),O(m*n),Simulate gravity after rotation,Not Done
+1929,Concatenation of Array (https://leetcode.com/problems/concatenation-of-array/),Easy,Array,Math,O(n),O(n),Concatenate array with itself,Not Done
+1934,Confirmation Rate (https://leetcode.com/problems/confirmation-rate/),Medium,SQL,Aggregation,O(n),O(1),SQL for rate calculation,Not Done
+1976,Number of Ways to Arrive at Destination (https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/),Medium,Graph,Dijkstra,O(V^2*log V),O(V),Dijkstra with path counting,Not Done
+1984,Minimum Difference Between Highest and Lowest of K Scores (https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/),Easy,Array,Sliding Window,O(n log n),O(1),Sort and use sliding window,Not Done
+2006,Count Number of Pairs With Absolute Difference K (https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/),Easy,Array,Hash Table,O(n),O(n),Hash map for pair differences,Not Done
+2007,Find Original Array From Doubled Array (https://leetcode.com/problems/find-original-array-from-doubled-array/),Medium,Array,Sorting,O(n log n),O(n),Sort and match doubled elements,Not Done
+1978,Employees Whose Manager Left the Company (https://leetcode.com/problems/employees-whose-manager-left-the-company/),Easy,SQL,Join,O(n),O(1),SQL left join with null check,Not Done
+2050,Parallel Courses III (https://leetcode.com/problems/parallel-courses-iii/),Hard,Graph,Topological Sort,O(V+E),O(V),Topological sort with time tracking,Not Done
+2101,Detonate the Maximum Bombs (https://leetcode.com/problems/detonate-the-maximum-bombs/),Medium,Graph,DFS,O(n^2),O(n),DFS for connected bombs,Not Done
+2115,Find All Possible Recipes from Given Supplies (https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/),Medium,Graph,Topological Sort,O(V+E),O(V),Topological sort for recipes,Not Done
+2127,Maximum Employees to Be Invited to a Meeting (https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/),Hard,Graph,DFS,O(V+E),O(V),DFS for cycle detection,Not Done
+2149,Rearrange Array Elements by Sign (https://leetcode.com/problems/rearrange-array-elements-by-sign/),Medium,Array,Two Pointers,O(n),O(n),Rearrange positive and negative,Not Done
+2239,Find Closest Number to Zero (https://leetcode.com/problems/find-closest-number-to-zero/),Easy,Array,Math,O(n),O(1),Track min absolute value,Not Done
+2290,Minimum Obstacle Removal to Reach Corner (https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/),Hard,Graph,BFS,O(m*n*log(m*n)),O(m*n),0-1 BFS or Dijkstra,Not Done
+2326,Spiral Matrix IV (https://leetcode.com/problems/spiral-matrix-iv/),Medium,Array,Linked List,O(m*n),O(1),Simulate spiral with linked list,Not Done
+2405,Optimal Partition of String (https://leetcode.com/problems/optimal-partition-of-string/),Medium,String,Greedy,O(n),O(n),Greedy partition with set,Not Done
+2419,Longest Subarray With Maximum Bitwise AND (https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/),Medium,Array,Math,O(n),O(1),Find max value subarray,Not Done
+2407,Longest Increasing Subsequence II (https://leetcode.com/problems/longest-increasing-subsequence-ii/),Hard,Array,Segment Tree,O(n log n),O(n),Segment tree for LIS,Not Done
+2463,Minimum Total Distance Traveled (https://leetcode.com/problems/minimum-total-distance-traveled/),Hard,Dynamic Programming,Array,O(n*m),O(n*m),DP for min distance,Not Done
+2530,Maximal Score After Applying K Operations (https://leetcode.com/problems/maximal-score-after-applying-k-operations/),Medium,Array,Heap,O(k log n),O(n),Max heap for operations,Not Done
+2601,Prime Subtraction Operation (https://leetcode.com/problems/prime-subtraction-operation/),Medium,Array,Math,O(n*sqrt(m)),O(1),Check prime subtractions,Not Done
+2619,Array Prototype Last (https://leetcode.com/problems/array-prototype-last/),Easy,Array,Programming,O(1),O(1),Return last element,Not Done
+2633,Convert Object to JSON String (https://leetcode.com/problems/convert-object-to-json-string/),Medium,String,DFS,O(n),O(n),DFS for object serialization,Not Done
+2684,Maximum Number of Moves in a Grid (https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/),Medium,Graph,DFS,O(m*n),O(m*n),DFS for max moves,Not Done
+2696,Minimum String Length After Removing Substrings (https://leetcode.com/problems/minimum-string-length-after-removing-substrings/),Easy,String,Stack,O(n),O(n),Stack or string replacement,Not Done
+2965,Find Missing and Repeated Values (https://leetcode.com/problems/find-missing-and-repeated-values/),Easy,Array,Math,O(n),O(1),Use array as hash map,Not Done
+3133,Minimum Array End (https://leetcode.com/problems/minimum-array-end/),Medium,Array,Bit Manipulation,O(log n),O(1),Bitwise operations for min end,Not Done
+3208,Alternating Groups II (https://leetcode.com/problems/alternating-groups-ii/),Medium,Array,Sliding Window,O(n),O(1),Check alternating pattern,Not Done
+3325,Count Substrings With K-Frequency Characters I (https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/),Medium,String,Sliding Window,O(n),O(n),Sliding window for frequency,Not Done
+3283,Maximum Number of Moves to Kill All Pawns (https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns/),Hard,Graph,BFS,O(n!),O(n),BFS with state tracking,Not Done
+3326,Minimum Division Operations to Make Array Non Decreasing (https://leetcode.com/problems/minimum-division-operations-to-make-array-non-decreasing/),Medium,Array,Greedy,O(n),O(1),Greedy division from right,Not Done
