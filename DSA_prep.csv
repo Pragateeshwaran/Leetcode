@@ -1,5 +1,5 @@
 Problem Number,Problem Name & Link,Difficulty,Topic,Sub-topic,Optimal Time Complexity,Optimal Space Complexity,Solution Hint/Keywords,Status
-1,Two Sum (https://leetcode.com/problems/two-sum/),Easy,Array,Hash Table,O(n),O(n),Use hash map to store complements,Not Done
+1,Two Sum (https://leetcode.com/problems/two-sum/),Easy,Array,Hash Table,O(n),O(n),Use hash map to store complements,Done
 2995,Viewers Turned Streamers (https://leetcode.com/problems/viewers-turned-streamers/),Hard,Array,Sliding Window,O(n),O(n),Track user activity with sliding window,Not Done
 1526,Minimum Number of Increments on Subarrays to Form a Target Array (https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/),Hard,Array,Greedy,O(n),O(1),Greedy approach to minimize increments,Not Done
 88,Merge Sorted Array (https://leetcode.com/problems/merge-sorted-array/),Easy,Array,Two Pointers,O(n),O(1),Merge from end to avoid overwriting,Not Done
@@ -540,3 +540,4 @@ Problem Number,Problem Name & Link,Difficulty,Topic,Sub-topic,Optimal Time Compl
 3325,Count Substrings With K-Frequency Characters I (https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/),Medium,String,Sliding Window,O(n),O(n),Sliding window for frequency,Not Done
 3283,Maximum Number of Moves to Kill All Pawns (https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns/),Hard,Graph,BFS,O(n!),O(n),BFS with state tracking,Not Done
 3326,Minimum Division Operations to Make Array Non Decreasing (https://leetcode.com/problems/minimum-division-operations-to-make-array-non-decreasing/),Medium,Array,Greedy,O(n),O(1),Greedy division from right,Not Done
+1052,Grumpy Bookstore Owner,,Array,Sliding Window,O(n),O(1),Minutes-I can we used,Done
